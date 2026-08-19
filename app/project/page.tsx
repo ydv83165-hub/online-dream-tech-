@@ -21,7 +21,7 @@ const PROJECTS: Project[] = [
     title: "Corporate site for a real estate developer",
     description: "Gallery-led design with property listings and inquiry funnels.",
     category: "Website",
-    imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(100,240,218,0.9),transparent_30%),linear-gradient(135deg,#0b1626,#1d3d59_52%,#0e2030)]",
+    imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(181,69,96,0.9),transparent_30%),linear-gradient(135deg,#0b1626,#1d3d59_52%,#0e2030)]",
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ const PROJECTS: Project[] = [
     title: "Visa & immigration consultancy site",
     description: "Trust-driven layout with service breakdowns and consultation booking.",
     category: "Software",
-    imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(100,240,218,0.82),transparent_28%),linear-gradient(135deg,#071827,#183d55_55%,#0a1d2d)]",
+    imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(181,69,96,0.82),transparent_28%),linear-gradient(135deg,#071827,#183d55_55%,#0a1d2d)]",
   },
   {
     id: 5,
@@ -141,7 +141,7 @@ export default function ProjectsPage() {
                   aria-pressed={isActive}
                   className={`rounded-full border px-5 py-2.5 text-sm font-semibold transition-all duration-300 sm:text-[15px] ${
                     isActive
-                      ? "border-[#64f0da] bg-[#64f0da] text-[#071426] shadow-[0_10px_24px_rgba(100,240,218,0.2)]"
+                      ? "border-[#b54560] bg-[#b54560] text-[#071426] shadow-[0_10px_24px_rgba(181,69,96,0.2)]"
                       : "border-slate-200 bg-white text-slate-700 hover:border-slate-300 hover:bg-slate-50"
                   }`}
                 >
@@ -174,7 +174,7 @@ export default function ProjectsPage() {
                   <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-sky-100/60">
                     {project.category}
                   </span>
-                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[#64f0da]/60 bg-[#64f0da]/10 text-lg font-light text-[#64f0da]">
+                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-[#b54560]/60 bg-[#b54560]/10 text-lg font-light text-[#b54560]">
                     →
                   </span>
                 </div>
@@ -187,7 +187,7 @@ export default function ProjectsPage() {
       <section className="bg-[#f8fafc] px-4 pb-16 pt-6 sm:px-6 lg:px-8 lg:pb-20 lg:pt-8">
         <div className="mx-auto max-w-6xl">
           <div className="mx-auto mb-8 max-w-xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#64f0da]">● CASE STUDY</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#b54560]">● CASE STUDY</p>
             <h2 className="mt-3 text-3xl font-black tracking-[-0.05em] text-black sm:text-4xl lg:text-[46px]">
               Featured project
             </h2>
@@ -196,7 +196,7 @@ export default function ProjectsPage() {
           <div className="overflow-hidden rounded-[28px] border border-[#1d2d42] bg-[#0d1b2a] shadow-[0_25px_60px_rgba(7,20,38,0.18)]">
             <div className="grid gap-0 lg:grid-cols-2">
               <div className="relative min-h-[280px] lg:min-h-[500px]">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(100,240,218,0.18),transparent_28%),linear-gradient(135deg,#071426,#16324d_58%,#0a1524)]" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(181,69,96,0.18),transparent_28%),linear-gradient(135deg,#071426,#16324d_58%,#0a1524)]" />
                 <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(11,18,28,0.2),rgba(11,18,28,0.68))]" />
                 <div className="absolute inset-0 opacity-30 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:22px_22px]" />
                 <div className="absolute inset-x-0 bottom-0 p-5 sm:p-6">
@@ -212,7 +212,7 @@ export default function ProjectsPage() {
               <div className="bg-[#12243b] p-5 sm:p-7 lg:p-8">
                 <div className="h-full flex flex-col justify-between">
                   <div>
-                    <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#64f0da]">● THE CHALLENGE</p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.28em] text-[#b54560]">● THE CHALLENGE</p>
                     <p className="mt-5 text-base leading-8 text-[#dfeaf8]">
                       The client needed a trust-building online presence for property buyers unfamiliar with the brand — combining a devotional regional aesthetic with a modern, mobile-first gallery and inventory experience.
                     </p>
@@ -220,22 +220,22 @@ export default function ProjectsPage() {
 
                   <div className="mt-8 grid gap-4 sm:grid-cols-3">
                     <div className="rounded-2xl border border-[#253c57] bg-[#0d1b2a] p-4 text-center">
-                      <div className="text-3xl font-black tracking-[-0.05em] text-[#64f0da]">4 weeks</div>
+                      <div className="text-3xl font-black tracking-[-0.05em] text-[#b54560]">4 weeks</div>
                       <div className="mt-2 text-[11px] uppercase tracking-[0.14em] text-[#b9d6f5]">Design to launch</div>
                     </div>
                     <div className="rounded-2xl border border-[#253c57] bg-[#0d1b2a] p-4 text-center">
-                      <div className="text-3xl font-black tracking-[-0.05em] text-[#64f0da]">3x</div>
+                      <div className="text-3xl font-black tracking-[-0.05em] text-[#b54560]">3x</div>
                       <div className="mt-2 text-[11px] uppercase tracking-[0.14em] text-[#b9d6f5]">Increase in inquiries</div>
                     </div>
                     <div className="rounded-2xl border border-[#253c57] bg-[#0d1b2a] p-4 text-center">
-                      <div className="text-3xl font-black tracking-[-0.05em] text-[#64f0da]">100%</div>
+                      <div className="text-3xl font-black tracking-[-0.05em] text-[#b54560]">100%</div>
                       <div className="mt-2 text-[11px] uppercase tracking-[0.14em] text-[#b9d6f5]">Mobile responsive</div>
                     </div>
                   </div>
 
                   <button
                     type="button"
-                    className="mt-8 inline-flex w-full items-center justify-center rounded-full bg-[#64f0da] px-6 py-3.5 text-base font-semibold text-[#071426] transition-all duration-300 hover:bg-[#7ef5db]"
+                    className="mt-8 inline-flex w-full items-center justify-center rounded-full bg-[#b54560] px-6 py-3.5 text-base font-semibold text-[#071426] transition-all duration-300 hover:bg-[#b54560]"
                   >
                     Start a similar project <span className="ml-2">→</span>
                   </button>
@@ -248,7 +248,7 @@ export default function ProjectsPage() {
 
       <section className="bg-white px-4 pb-20 pt-0 sm:px-6 lg:px-8 lg:pb-24">
         <div className="mx-auto max-w-6xl">
-          <div className="relative overflow-hidden rounded-[28px] border border-[#1d2d42] bg-[radial-gradient(circle_at_right,_rgba(100,240,218,0.18),transparent_25%),linear-gradient(135deg,#071426,#0b1f31_45%,#081827)] px-6 py-8 sm:px-8 sm:py-10 lg:px-[75px] lg:py-[60px]">
+          <div className="relative overflow-hidden rounded-[28px] border border-[#1d2d42] bg-[radial-gradient(circle_at_right,_rgba(181,69,96,0.18),transparent_25%),linear-gradient(135deg,#071426,#0b1f31_45%,#081827)] px-6 py-8 sm:px-8 sm:py-10 lg:px-[75px] lg:py-[60px]">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_rgba(84,201,255,0.12),transparent_28%)]" />
             <div className="relative flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-center">
               <div className="max-w-xl text-left text-white">
@@ -260,7 +260,7 @@ export default function ProjectsPage() {
 
               <Link
                 href="/contact"
-                className="group inline-flex items-center justify-center rounded-full bg-[#64f0da] px-7 py-3.5 text-base font-semibold text-[#071426] shadow-[0_12px_28px_rgba(100,240,218,0.22)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#7ef5db]"
+                className="group inline-flex items-center justify-center rounded-full bg-[#b54560] px-7 py-3.5 text-base font-semibold text-[#071426] shadow-[0_12px_28px_rgba(181,69,96,0.22)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#b54560]"
               >
                 Let&apos;s talk <span className="ml-2 transition-transform duration-300 group-hover:translate-x-1">→</span>
               </Link>
