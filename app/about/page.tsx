@@ -307,7 +307,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-5">
+          <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-5">
             {[
               { name: "Ankit", role: "Founder & Lead Developer", initials: "AK" },
               { name: "Roshan", role: "UI / UX Designer", initials: "RS" },
@@ -319,13 +319,13 @@ export default function AboutPage() {
                 key={member.name}
                 className="about-card group overflow-hidden rounded-[1.5rem] border border-slate-300 bg-white shadow-[0_18px_36px_rgba(15,23,42,0.06)] hover:border-[#f07889] hover:shadow-[0_22px_44px_rgba(240,120,137,0.12)]"
               >
-                <div className="flex h-64 items-center justify-center bg-[#F3F6F8] transition-colors duration-300 group-hover:bg-[#EDF9FB] sm:h-72">
+                <div className="flex h-52 items-center justify-center bg-[#F3F6F8] transition-colors duration-300 group-hover:bg-[#EDF9FB] sm:h-60">
                   <div className="flex h-24 w-24 items-center justify-center rounded-full bg-white text-3xl font-extrabold text-[#f07889] shadow-[0_10px_26px_rgba(240,120,137,0.12)] sm:h-28 sm:w-28">
                     {member.initials}
                   </div>
                 </div>
 
-                <div className="border-t border-slate-200 bg-white p-6 sm:p-7">
+                <div className="border-t border-slate-200 bg-white p-5 sm:p-6">
                   <div className="mb-3 h-1.5 w-10 rounded-full bg-[#f07889]" />
                   <h3 className="text-2xl font-bold text-[#111111]">{member.name}</h3>
                   <p className="mt-2 text-base text-[#333333]">{member.role}</p>
