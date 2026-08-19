@@ -48,7 +48,7 @@ export function Hero() {
           <div className="relative">
             <img
               src="/hero-visual.png"
-              alt="Online Dream Teach growth dashboard"
+              alt="Online Dream tech growth dashboard"
               className="relative h-auto w-full object-cover"
             />
           </div>

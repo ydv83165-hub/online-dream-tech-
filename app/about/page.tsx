@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 
 const ABOUT_EXTRA = {
   story: [
-    "Online Dream Teach was created to make practical learning feel clearer, more useful, and more approachable for real life.",
+    "Online Dream tech was created to make practical learning feel clearer, more useful, and more approachable for real life.",
     "Our work blends guidance, reflection, and action so people can move forward with more clarity in study, work, and personal growth.",
     "We believe progress becomes sustainable when the process is simple, honest, and built around real outcomes.",
   ],

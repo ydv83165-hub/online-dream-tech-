@@ -31,8 +31,8 @@ const CONTACT_INFO = [
   {
     title: "Email us",
     description: "Drop us a line, we reply within 24 hours.",
-    detail: "onlinedreamteach@gmail.com",
-    href: "mailto:onlinedreamteach@gmail.com",
+    detail: "onlinedreamtech@gmail.com",
+    href: "mailto:onlinedreamtech@gmail.com",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
         <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z" />
@@ -210,7 +210,7 @@ export default function ContactPage() {
           </p>
 
           <h2 className="mx-auto mt-6 max-w-4xl text-[44px] font-normal leading-[1.05] tracking-[-0.04em] text-[#0a1b2e] sm:text-[62px] lg:text-[78px]">
-            Ready to grow with Online Dream Teach
+            Ready to grow with Online Dream tech
             
           </h2>
 

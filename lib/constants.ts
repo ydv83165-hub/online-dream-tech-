@@ -1,14 +1,14 @@
 export const BRAND = {
-  name: "Online Dream Teach",
+  name: "Online Dream Tech",
   tagline: "Creative, strategic and ROI-driven web & software development for businesses across Delhi NCR and beyond. We turn ideas into digital reality.",
     
   taglineFitness: "Practical guidance, long-term growth, and meaningful progress.",
-  domain: "onlinedreamteach.com",
-  legalName: "Online Dream Teach",
+  domain: "onlinedreamtech.com",
+  legalName: "Online Dream Tech",
   whatsapp: "91xxxxxxxx",
   whatsappDisplay: "+91-xxxxxxxx",
   fssai: "xxxxxxxxxxxxxx",
-  email: "hello@onlinedreamteach.com",
+  email: "hello@onlinedreamtech.com",
 } as const;
 
 export const SOCIAL = {
@@ -26,10 +26,9 @@ export const NAV_LINKS = [
 ] as const;
 
 export const MISSION = {
-  hindi: `हम व्यावहारिक सीख, सार्थक मार्गदर्शन और विकास-केन्द्रित mindset का संयोजन करके लोगों को आत्मविश्वास, स्पष्टता और निरंतर प्रगति प्रदान करते हैं।`,
-  hindiMission: `ऑनलाइन ड्रीम टीच का उद्देश्य छात्रों, परिवारों और पेशेवरों के लिए सार्थक सीख, व्यक्तिगत विकास और व्यावहारिक सहयोग को सुलभ बनाना है।`,
+ 
   english: `We blend practical learning, meaningful guidance, and a growth-first mindset to help people build confidence, clarity, and long-term momentum in everyday life.`,
-  englishMission: `Online Dream Teach is committed to making meaningful learning, personal development, and practical support accessible to students, families, and professionals seeking sustainable growth.`,
+  englishMission: `Online Dream Tech is committed to making meaningful learning, personal development, and practical support accessible to students, families, and professionals seeking sustainable growth.`,
 } as const;
 
 export const DELIVERY = {

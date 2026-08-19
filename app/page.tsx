@@ -21,14 +21,14 @@ const TESTIMONIALS = [
     rating: 5,
   },
   {
-    quote: "Jab bhi koi goal clear karna hota hai, mujhe Online Dream Teach ka guidance bahut helpful lagta hai. Isse meri direction aur confidence dono improve hui hai.",
+    quote: "Jab bhi koi goal clear karna hota hai, mujhe Online Dream tech ka guidance bahut helpful lagta hai. Isse meri direction aur confidence dono improve hui hai.",
     name: "Roshan",
     location: "UP",
     product: "Growth Mentoring",
     rating: 5,
   },
   {
-    quote: "As a working professional, I needed structure without overwhelm. Online Dream Teach gave me exactly that — clear direction and steady progress.",
+    quote: "As a working professional, I needed structure without overwhelm. Online Dream tech gave me exactly that — clear direction and steady progress.",
     name: "Aman",
     location: "Mumbai",
     product: "Growth Coaching",
@@ -50,7 +50,7 @@ const TECHNOLOGY_LOGOS = [
 
 const FAQ = [
   {
-    q: "Is Online Dream Teach good for learning and growth?",
+    q: "Is Online Dream tech good for learning and growth?",
     a: "Yes. Our approach combines practical learning, guided structure, and growth-focused support so people can build real momentum in study, work, and personal development.",
   },
   {
@@ -188,7 +188,7 @@ export default function HomePage() {
               <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-[#f5f5f5] shadow-[0_20px_40px_rgba(15,23,42,0.08)] p-3 sm:p-4 transition-all duration-300 hover:border-primary/30 hover:shadow-[0_24px_46px_rgba(15,23,42,0.12)]">
                 <img
                   src="/team-illustration.png"
-                  alt="Team illustration for Online Dream Teach"
+                  alt="Team illustration for Online Dream tech"
                   className="h-[300px] w-full object-contain sm:h-[420px]"
                 />
               </div>
