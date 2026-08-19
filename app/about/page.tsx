@@ -307,12 +307,13 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-5">
             {[
               { name: "Ankit", role: "Founder & Lead Developer", initials: "AK" },
               { name: "Roshan", role: "UI / UX Designer", initials: "RS" },
               { name: "Shivam", role: "Backend Developer", initials: "SV" },
               { name: "Aman", role: "Project Manager", initials: "AM" },
+              { name: "Suraj", role: "Frontend Developer", initials: "SJ" },
             ].map((member) => (
               <article
                 key={member.name}
