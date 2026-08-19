@@ -140,6 +140,23 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+}
+
+@media (max-width: 639px) {
+  .safe-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+  }
+
+  .services-page .marquee-container {
+    gap: 2.5rem;
+  }
+}
+
 .services-page {
   background: #071426;
   color: #e2e8f0;

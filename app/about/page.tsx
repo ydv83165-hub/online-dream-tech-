@@ -71,7 +71,7 @@ export default function AboutPage() {
                 <img
                   src="/about%20Who%20we%20are.png"
                   alt="About Who We Are"
-                  className="h-[430px] w-full rounded-[1.5rem] object-cover sm:h-[500px] lg:h-[560px]"
+                  className="h-[320px] w-full rounded-[1.5rem] object-cover sm:h-[500px] lg:h-[560px]"
                 />
               </div>
 
@@ -93,7 +93,7 @@ export default function AboutPage() {
                 <img
                   src="/about%20Our%20Story.png"
                   alt="Our Story"
-                  className="h-[360px] w-full rounded-[1.4rem] object-cover sm:h-[420px] lg:h-[480px]"
+                  className="h-[300px] w-full rounded-[1.4rem] object-cover sm:h-[420px] lg:h-[480px]"
                 />
               </div>
             </div>

@@ -107,7 +107,7 @@ export default function ContactPage() {
                 href={item.href}
                 target={item.href.startsWith("http") ? "_blank" : undefined}
                 rel={item.href.startsWith("http") ? "noreferrer" : undefined}
-                className="group rounded-[16px] border border-sky-200/15 bg-white/5 p-[38px_36px] text-left shadow-[0_16px_28px_rgba(8,15,30,0.22)] transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300/60 hover:shadow-[0_18px_32px_rgba(45,212,191,0.12)]"
+                className="group rounded-[16px] border border-sky-200/15 bg-white/5 p-6 text-left shadow-[0_16px_28px_rgba(8,15,30,0.22)] transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300/60 hover:shadow-[0_18px_32px_rgba(45,212,191,0.12)] sm:p-[38px_36px]"
               >
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#0d2c38] text-[#ed526c] ring-1 ring-inset ring-white/10">
                   {item.icon}
@@ -116,7 +116,7 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-white">{item.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-sky-100/70">{item.description}</p>
 
-                <div className="mt-6 text-base font-medium text-[#ed526c] transition-colors group-hover:text-[#d93d59]">
+                <div className="mt-6 break-words text-base font-medium text-[#ed526c] transition-colors group-hover:text-[#d93d59]">
                   {item.detail}
                 </div>
               </a>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                     href={item.href}
                     target={item.href.startsWith("http") ? "_blank" : undefined}
                     rel={item.href.startsWith("http") ? "noreferrer" : undefined}
-                    className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 transition-colors hover:border-slate-300 hover:bg-slate-100"
+                    className="flex flex-col items-start gap-1 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 transition-colors hover:border-slate-300 hover:bg-slate-100 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
                   >
                     <span className="text-sm font-medium text-slate-600">{item.label}</span>
                     <span className="text-sm font-semibold text-slate-900">{item.value}</span>

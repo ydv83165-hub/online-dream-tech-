@@ -24,7 +24,7 @@ export function Hero() {
               Delhi NCR · Web & Software Studio
             </div>
 
-            <h1 className="font-display text-5xl leading-none tracking-[-0.04em] text-white sm:text-6xl lg:text-[5rem]">
+            <h1 className="font-display text-4xl leading-[0.98] tracking-[-0.04em] text-white sm:text-6xl lg:text-[5rem]">
               Creative, strategic & ROI driven
               <span className="mt-2 block text-[#ed526c] drop-shadow-[0_0_16px_rgba(237,82,108,0.35)]">
                 digital solutions.

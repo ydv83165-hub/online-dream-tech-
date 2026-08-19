@@ -189,7 +189,7 @@ export default function HomePage() {
                 <img
                   src="/team-illustration.png"
                   alt="Team illustration for Online Dream Teach"
-                  className="h-[420px] w-full object-contain"
+                  className="h-[300px] w-full object-contain sm:h-[420px]"
                 />
               </div>
             </div>

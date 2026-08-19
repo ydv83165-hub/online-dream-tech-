@@ -177,7 +177,7 @@ function ServiceOverviewCard({
 
 function ServiceVisual({ variant }: { variant: ServiceVisualType }) {
   const baseCard =
-    "relative h-[420px] w-full overflow-hidden rounded-[30px] border border-slate-700/80 bg-[radial-gradient(circle_at_top,_rgba(18,201,201,0.18),_transparent_38%),linear-gradient(180deg,#0d1d2d_0%,#091827_100%)] shadow-[0_28px_80px_rgba(6,12,20,0.62)]";
+    "relative h-[360px] w-full overflow-hidden rounded-[30px] border border-slate-700/80 bg-[radial-gradient(circle_at_top,_rgba(18,201,201,0.18),_transparent_38%),linear-gradient(180deg,#0d1d2d_0%,#091827_100%)] shadow-[0_28px_80px_rgba(6,12,20,0.62)] sm:h-[420px]";
 
   switch (variant) {
     case "website":
@@ -673,18 +673,18 @@ export default function ServicesPage() {
                 <h2 className="text-4xl font-black leading-[1.15] tracking-[-0.06em] text-[#111111] sm:text-5xl lg:text-[3.5rem]">
                   Unveil the collaboration.
                   <br />
-                  Let's create something
+                  Let&apos;s create something
                   <br />
                   amazing.
                 </h2>
               </div>
 
               <div className="flex flex-shrink-0">
-                <Link
+                  <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 rounded-full bg-[#00BFC3] px-8 py-4 font-semibold text-[#111111] shadow-[0_6px_16px_rgba(0,191,195,0.24)] transition-all duration-300 hover:scale-105 hover:shadow-[0_10px_24px_rgba(0,191,195,0.32)] sm:px-10 sm:py-5 sm:text-lg"
                 >
-                  Let's talk →
+                  Let&apos;s talk →
                 </Link>
               </div>
             </div>
