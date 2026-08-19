@@ -21,7 +21,7 @@ export function Footer() {
                   <div className="text-lg font-semibold text-white">{BRAND.name}</div>
                 </div>
               </div>
-              <p className="text-slate-300 text-sm leading-relaxed">
+              <p className="max-w-full text-slate-300 text-sm leading-relaxed">
                 {BRAND.tagline}
               </p>
             </div>

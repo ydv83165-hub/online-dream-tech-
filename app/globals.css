@@ -148,6 +148,41 @@ canvas {
 }
 
 @media (max-width: 639px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
+
+  main,
+  footer {
+    width: 100%;
+    min-width: 0;
+  }
+
+  main .grid > *,
+  main .flex > *,
+  footer .grid > *,
+  footer .flex > * {
+    min-width: 0;
+  }
+
+  main h1,
+  main h2,
+  main h3,
+  main p,
+  main a,
+  footer p,
+  footer a {
+    overflow-wrap: anywhere;
+  }
+
+  main button,
+  main a {
+    max-width: 100%;
+  }
+
   .safe-bottom {
     padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px));
   }

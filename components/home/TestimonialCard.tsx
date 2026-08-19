@@ -28,7 +28,7 @@ export function TestimonialCard({
       />
 
       <div className="flex items-start justify-between gap-3">
-        <span className="inline-flex items-center px-2.5 py-1 rounded-full border border-slate-300 text-[10px] font-medium tracking-[0.14em] uppercase text-slate-700">
+        <span className="inline-flex min-w-0 items-center px-2.5 py-1 rounded-full border border-slate-300 text-[10px] font-medium tracking-[0.14em] uppercase text-slate-700">
           {product}
         </span>
         <span

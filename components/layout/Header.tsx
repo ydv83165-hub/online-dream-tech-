@@ -25,7 +25,7 @@ export function Header() {
               alt="Online Dream Tech logo"
               className="h-8 w-8 object-contain sm:h-10 sm:w-10"
             />
-            <div className="leading-none">
+            <div className="min-w-0 leading-none">
               <div className="text-base font-semibold tracking-tight text-slate-900">{BRAND.name}</div>
             </div>
           </Link>
@@ -46,7 +46,7 @@ export function Header() {
             <Button
               href="/contact"
               size="sm"
-              className="hidden md:inline-flex shadow-[0_12px_24px_rgba(50,3,3,0.18)]"
+              className="!hidden md:!inline-flex shadow-[0_12px_24px_rgba(50,3,3,0.18)]"
               style={{ backgroundColor: "#320303", color: "#ffffff" }}
             >
               Let&apos;s Connect
