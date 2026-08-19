@@ -451,7 +451,7 @@ export default function ServicesPage() {
           <section
             key={service.id}
             id={service.id}
-            className={`reveal scroll-mt-28 py-16 sm:py-20 lg:py-[7.5rem] transition-all duration-300 ${
+            className={`scroll-mt-28 py-16 sm:py-20 lg:py-[7.5rem] transition-all duration-300 ${
               ["website-development", "app-development", "news-portal", "software-development", "digital-marketing", "e-commerce"].includes(service.id)
                 ? ["software-development", "digital-marketing", "e-commerce"].includes(service.id)
                   ? "bg-[#f5f7fb]"
@@ -461,7 +461,7 @@ export default function ServicesPage() {
           >
             <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8">
               <div
-                className={`group rounded-3xl border transition-all duration-300 p-8 sm:p-10 lg:p-12 ${
+                className={`reveal group rounded-3xl border transition-all duration-300 p-8 sm:p-10 lg:p-12 ${
                   ["website-development", "app-development", "news-portal", "software-development", "digital-marketing", "e-commerce"].includes(service.id)
                     ? ["software-development", "digital-marketing", "e-commerce"].includes(service.id)
                       ? "border-[#f07889]/30 hover:border-[#f07889]/60 hover:shadow-[0_20px_40px_rgba(240,120,137,0.1)] hover:-translate-y-1"
