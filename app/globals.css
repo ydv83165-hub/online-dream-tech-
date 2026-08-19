@@ -16,8 +16,8 @@
   --accent: #1d4ed8;
   --accent-soft: rgba(29, 78, 216, 0.08);
   --success: #10b981;
-  --whatsapp: #25d366;
-  --whatsapp-dark: #1da851;
+  --whatsapp: #00D756;
+  --whatsapp-dark: #00D756;
 }
 
 @keyframes float-slow {
