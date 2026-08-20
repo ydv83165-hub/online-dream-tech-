@@ -115,7 +115,7 @@ export default function HomePage() {
                 text: "Smart systems, modern communication, and better execution so your next move feels confident and measurable.",
               },
             ].map((item) => (
-              <article key={item.title} className="card-premium rounded-[1.5rem] p-6 sm:p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-[0_18px_32px_rgba(15,23,42,0.08)]">
+              <article key={item.title} style={{ borderColor: "#D4AF37" }} className="card-premium rounded-[1.5rem] p-6 sm:p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-[0_18px_32px_rgba(15,23,42,0.08)]">
                 <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-soft text-lg text-primary">✦</div>
                 <h3 className="font-display text-2xl text-slate-900">{item.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600">{item.text}</p>
@@ -235,6 +235,7 @@ export default function HomePage() {
             ].map((service) => (
               <article
                 key={service.title}
+                style={{ borderColor: "#D4AF37" }}
                 className="group rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-[0_12px_24px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/35 hover:shadow-[0_18px_32px_rgba(15,23,42,0.08)]"
               >
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-soft text-2xl shadow-sm">
@@ -298,6 +299,7 @@ export default function HomePage() {
             ].map((tech) => (
               <div
                 key={tech}
+                style={{ borderColor: "#D4AF37" }}
                 className="rounded-2xl border border-slate-200 bg-white px-4 py-4 text-center text-sm font-medium text-slate-800 shadow-[0_10px_20px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/35 hover:shadow-[0_14px_28px_rgba(15,23,42,0.08)] hover:bg-slate-50"
               >
                 {tech}
@@ -316,7 +318,7 @@ export default function HomePage() {
 
           <div className="space-y-3">
             {FAQ.map((item) => (
-              <details key={item.q} className="group rounded-2xl border border-slate-200 bg-white/80 open:border-primary/30 shadow-[0_8px_18px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_14px_28px_rgba(15,23,42,0.08)]">
+              <details key={item.q} style={{ borderColor: "#D4AF37" }} className="group rounded-2xl border border-slate-200 bg-white/80 open:border-primary/30 shadow-[0_8px_18px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[0_14px_28px_rgba(15,23,42,0.08)]">
                 <summary className="cursor-pointer list-none px-5 py-4 text-base font-medium text-slate-800 flex items-center justify-between gap-3">
                   <span className="text-left pr-2">{item.q}</span>
                   <span className="text-2xl text-slate-500 transition-transform duration-200 group-open:rotate-45">+</span>

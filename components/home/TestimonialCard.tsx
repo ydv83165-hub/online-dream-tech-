@@ -16,7 +16,7 @@ export function TestimonialCard({
   const initial = name.trim().charAt(0).toUpperCase();
 
   return (
-    <blockquote className="relative flex flex-col h-full rounded-[4px] bg-[#f5f7fb] border border-slate-200 p-5 sm:p-6 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:border-slate-300 hover:shadow-[0_18px_30px_rgba(15,23,42,0.08)]">
+    <blockquote style={{ borderColor: "#D4AF37" }} className="relative flex flex-col h-full rounded-[4px] bg-[#f5f7fb] border border-slate-200 p-5 sm:p-6 overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:border-slate-300 hover:shadow-[0_18px_30px_rgba(15,23,42,0.08)]">
       {/* Corner accents */}
       <span
         className="pointer-events-none absolute top-0 left-0 w-5 h-5 border-t border-l border-slate-300"
