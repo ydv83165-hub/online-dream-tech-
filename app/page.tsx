@@ -1,6 +1,7 @@
 import { MISSION, BRAND } from "@/lib/constants";
 import { Hero } from "@/components/home/Hero";
 import { TestimonialCard } from "@/components/home/TestimonialCard";
+import { StoryLottie } from "@/components/home/StoryLottie";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 
@@ -179,11 +180,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100 blur-2xl" />
               <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-[#f5f5f5] shadow-[0_20px_40px_rgba(15,23,42,0.08)] p-3 sm:p-4 transition-all duration-300 hover:border-primary/30 hover:shadow-[0_24px_46px_rgba(15,23,42,0.12)]">
-                <img
-                  src="/team-illustration.png"
-                  alt="Team illustration for Online Dream tech"
-                  className="h-[300px] w-full object-contain sm:h-[420px]"
-                />
+                <StoryLottie />
               </div>
             </div>
           </div>
