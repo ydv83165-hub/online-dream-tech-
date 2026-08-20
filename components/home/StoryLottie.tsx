@@ -26,7 +26,7 @@ export function StoryLottie() {
   }, []);
 
   if (!animationData) {
-    return <div className="h-[240px] w-full sm:h-[340px]" aria-hidden="true" />;
+    return <div className="h-[210px] w-full sm:h-[300px]" aria-hidden="true" />;
   }
 
   return (
@@ -34,7 +34,7 @@ export function StoryLottie() {
       src={animationData}
       loop
       autoplay
-      className="h-[240px] w-full sm:h-[340px]"
+      className="h-[210px] w-full sm:h-[300px]"
       aria-label="Technology support animation"
     />
   );
