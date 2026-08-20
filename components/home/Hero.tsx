@@ -14,6 +14,11 @@ export function Hero() {
   const [activeBackground, setActiveBackground] = useState(0);
 
   useEffect(() => {
+    HERO_BACKGROUNDS.forEach((background) => {
+      const image = new window.Image();
+      image.src = background;
+    });
+
     const interval = window.setInterval(() => {
       setActiveBackground((current) => (current + 1) % HERO_BACKGROUNDS.length);
     }, 5000);
@@ -23,7 +28,7 @@ export function Hero() {
 
   return (
     <section
-      className="hero-shell relative min-h-[680px] overflow-hidden bg-[#0a1532] pt-18 pb-14 sm:min-h-[720px] sm:pt-20 sm:pb-20 lg:h-screen lg:min-h-[800px] lg:pt-24 lg:pb-24"
+      className="hero-shell relative min-h-[680px] overflow-hidden bg-[#0a1532] pt-18 pb-14 sm:min-h-[720px] sm:pt-20 sm:pb-20 lg:h-screen lg:min-h-[700px] lg:pt-24 lg:pb-24"
     >
       <div className="absolute inset-0" aria-hidden="true">
         {HERO_BACKGROUNDS.map((background, index) => {
