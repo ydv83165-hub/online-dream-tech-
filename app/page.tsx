@@ -2,7 +2,6 @@ import { MISSION, BRAND } from "@/lib/constants";
 import { Hero } from "@/components/home/Hero";
 import { TestimonialCard } from "@/components/home/TestimonialCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { TrustBadges } from "@/components/ui/TrustBadges";
 import { Button } from "@/components/ui/Button";
 
 const STATS = [
@@ -68,19 +67,13 @@ export default function HomePage() {
     <>
       <Hero />
 
-      <section className="py-6 border-b border-slate-200 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <TrustBadges />
-        </div>
-      </section>
-
       <section className="relative py-10 sm:py-12 lg:py-16 overflow-hidden">
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
             {STATS.map((stat) => (
               <div
                 key={stat.label}
-                className="rounded-2xl border border-slate-200 bg-white px-3 py-5 shadow-[0_12px_24px_rgba(15,23,42,0.04)] text-center h-full flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_30px_rgba(15,23,42,0.08)] hover:border-primary/40 hover:bg-slate-50"
+                className="rounded-2xl border border-[#D4AF37] bg-white px-3 py-5 shadow-[0_12px_24px_rgba(15,23,42,0.04)] text-center h-full flex flex-col items-center justify-center transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_30px_rgba(15,23,42,0.08)] hover:border-primary/40 hover:bg-slate-50"
               >
                 <p
                   className={`font-display font-semibold leading-none text-slate-900 ${
