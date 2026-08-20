@@ -1,19 +1,54 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { BRAND } from "@/lib/constants";
 import { Button } from "@/components/ui/Button";
 
+const HERO_BACKGROUNDS = [
+  "/1%20hero%20Technology.png",
+  "/2%20hero%20Futuristic%20technology.png",
+  "/3%20home%20%20rocket%20illustration.png",
+] as const;
+
 export function Hero() {
+  const [activeBackground, setActiveBackground] = useState(0);
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setActiveBackground((current) => (current + 1) % HERO_BACKGROUNDS.length);
+    }, 5000);
+
+    return () => window.clearInterval(interval);
+  }, []);
+
   return (
     <section
-      className="hero-shell relative overflow-hidden pt-18 pb-14 sm:pt-20 sm:pb-20 lg:pt-24 lg:pb-24"
-      style={{
-        backgroundImage:
-          "linear-gradient(90deg, rgba(2,6,23,0.82) 0%, rgba(15,23,42,0.72) 35%, rgba(15,23,42,0.52) 100%), url('/space-hero-bg.svg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundColor: "#0a1532",
-      }}
+      className="hero-shell relative min-h-[680px] overflow-hidden bg-[#0a1532] pt-18 pb-14 sm:min-h-[720px] sm:pt-20 sm:pb-20 lg:h-screen lg:min-h-[800px] lg:pt-24 lg:pb-24"
     >
+      <div className="absolute inset-0" aria-hidden="true">
+        {HERO_BACKGROUNDS.map((background, index) => {
+          const previousIndex =
+            (activeBackground - 1 + HERO_BACKGROUNDS.length) % HERO_BACKGROUNDS.length;
+          const position =
+            index === activeBackground
+              ? "translate-x-0"
+              : index === previousIndex
+                ? "-translate-x-full"
+                : "translate-x-full";
+
+          return (
+            <div
+              key={background}
+              className={`hero-background-slide absolute inset-0 bg-cover bg-center bg-no-repeat ${position}`}
+              style={{
+                backgroundImage: `url("${background}")`,
+                opacity: index === activeBackground ? 1 : 0,
+              }}
+            />
+          );
+        })}
+      </div>
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(2,6,23,0.86)_0%,rgba(15,23,42,0.74)_40%,rgba(15,23,42,0.56)_100%)]" />
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(4, 7, 55, 0.82)_0%,rgba(5, 9, 69, 0.58)_38%,rgba(15,23,42,0.76)_100%)]" />
       <div className="absolute inset-x-0 top-0 h-56 bg-[radial-gradient(circle_at_top,rgba(15,23,42,0.72),transparent_60%)]" />
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
