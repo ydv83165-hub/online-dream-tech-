@@ -7,9 +7,13 @@ type AnimationData = Record<string, unknown>;
 
 interface StoryLottieProps {
   source?: string;
+  className?: string;
 }
 
-export function StoryLottie({ source = "/lotie/web%20design%20Lottie%20animation%20(1)home%20page.json" }: StoryLottieProps) {
+export function StoryLottie({
+  source = "/lotie/web%20design%20Lottie%20animation%20(1)home%20page.json",
+  className,
+}: StoryLottieProps) {
   const [animationData, setAnimationData] = useState<AnimationData | null>(null);
 
   useEffect(() => {
@@ -30,7 +34,7 @@ export function StoryLottie({ source = "/lotie/web%20design%20Lottie%20animation
   }, [source]);
 
   if (!animationData) {
-    return <div className="h-[210px] w-full sm:h-[300px]" aria-hidden="true" />;
+    return <div className={className ?? "h-[210px] w-full sm:h-[300px]"} aria-hidden="true" />;
   }
 
   return (
@@ -38,7 +42,7 @@ export function StoryLottie({ source = "/lotie/web%20design%20Lottie%20animation
       src={animationData}
       loop
       autoplay
-      className="h-[210px] w-full sm:h-[300px]"
+      className={className ?? "h-[210px] w-full sm:h-[300px]"}
       aria-label="Technology support animation"
     />
   );
