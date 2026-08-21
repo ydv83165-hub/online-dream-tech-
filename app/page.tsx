@@ -246,6 +246,25 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section
+        className="relative flex min-h-[280px] items-center justify-center overflow-hidden bg-[#071426] bg-cover bg-center px-4 py-14 sm:min-h-[320px] sm:py-16"
+        style={{
+          backgroundImage: "url('/2%20hero%20Futuristic%20technology.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+          backgroundAttachment: "fixed",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="absolute inset-0 bg-[#071426]/65" />
+        <div className="relative text-center text-white">
+          <h2 className="font-display text-4xl font-bold sm:text-5xl">Our partner in turning ideas into digital reality</h2>
+          <p className="mt-3 max-w-3xl text-base font-semibold leading-7 text-sky-100 sm:text-lg">
+            Online Dream Tech, your destination for cutting-edge software and website development. We blend creativity with technology to deliver exceptional digital solutions.
+          </p>
+        </div>
+      </section>
+
       <section className="py-14 sm:py-16 lg:py-20 bg-[#f5f3f6]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
