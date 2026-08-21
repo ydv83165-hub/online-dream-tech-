@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BRAND } from "@/lib/constants";
 import { PremiumSectionHeading } from "@/components/ui/PremiumSectionHeading";
 import { Button } from "@/components/ui/Button";
+import { StoryLottie } from "@/components/home/StoryLottie";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -70,30 +71,38 @@ export default function ContactPage() {
     <>
       <section className="relative overflow-hidden bg-[#071426]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(89,208,255,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(29,78,216,0.14),transparent_30%)]" />
-        <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
-          <nav aria-label="Breadcrumb" className="flex justify-center">
-            <ol className="flex items-center gap-2 text-sm font-medium tracking-wide">
-              <li>
-                <Link href="/" className="text-cyan-300 transition-colors hover:text-cyan-200">
-                  Home
-                </Link>
-              </li>
-              <li className="text-sky-200/80">/</li>
-              <li className="text-sky-100/80">Contact</li>
-            </ol>
-          </nav>
+        <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12 lg:px-8 lg:py-24">
+          <div className="text-center lg:text-left">
+            <nav aria-label="Breadcrumb" className="flex justify-center lg:justify-start">
+              <ol className="flex items-center gap-2 text-sm font-medium tracking-wide">
+                <li>
+                  <Link href="/" className="text-cyan-300 transition-colors hover:text-cyan-200">
+                    Home
+                  </Link>
+                </li>
+                <li className="text-sky-200/80">/</li>
+                <li className="text-sky-100/80">Contact</li>
+              </ol>
+            </nav>
 
-          <div className="mx-auto mt-8 max-w-4xl text-center">
-            <h1 className="text-[32px] font-black leading-[1.08] tracking-[-0.05em] text-white sm:text-[42px] lg:text-[58px]">
-              Let&apos;s start your
-              <span className="mt-2 block bg-gradient-to-r from-[#ed526c] via-[#f06f82] to-[#f08e9d] bg-clip-text text-transparent">
-                digital transformation
-              </span>
-            </h1>
+            <div className="mx-auto mt-8 max-w-4xl lg:mx-0">
+              <h1 className="text-[32px] font-black leading-[1.08] tracking-[-0.05em] text-white sm:text-[42px] lg:text-[58px]">
+                Let&apos;s start your
+                <span className="mt-2 block bg-gradient-to-r from-[#ed526c] via-[#f06f82] to-[#f08e9d] bg-clip-text text-transparent">
+                  digital transformation
+                </span>
+              </h1>
 
-            <p className="mx-auto mt-6 max-w-[600px] text-[16px] leading-7 text-sky-100/80 sm:text-[17px] sm:leading-8">
-              Tell us about your project and our team will get back to you with a tailored plan – no fluff, just clear next steps.
-            </p>
+              <p className="mx-auto mt-6 max-w-[600px] text-[16px] leading-7 text-sky-100/80 sm:text-[17px] sm:leading-8 lg:mx-0">
+                Tell us about your project and our team will get back to you with a tailored plan – no fluff, just clear next steps.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-center lg:justify-end">
+            <div className="w-full max-w-[360px]">
+              <StoryLottie source="/lotie/Tech%20support%20and%20customer%20contact%20page.json" />
+            </div>
           </div>
         </div>
       </section>
