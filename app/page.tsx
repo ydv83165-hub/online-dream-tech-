@@ -161,7 +161,7 @@ export default function HomePage() {
 
       <section className="py-14 sm:py-16 lg:py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid items-center gap-10 lg:grid-cols-[1fr_1.2fr]">
+          <div className="grid items-center gap-10 lg:grid-cols-2">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">Our story</p>
               <h2 className="mt-4 font-display text-4xl text-slate-900 sm:text-5xl">Built for curious minds and ambitious goals.</h2>
@@ -177,7 +177,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="relative">
+            <div className="relative mx-auto w-full max-w-[440px]">
               <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-primary/10 via-sky-100 to-indigo-100 blur-2xl" />
               <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-[#f5f5f5] shadow-[0_20px_40px_rgba(15,23,42,0.08)] p-3 sm:p-4 transition-all duration-300 hover:border-primary/30 hover:shadow-[0_24px_46px_rgba(15,23,42,0.12)]">
                 <StoryLottie />
