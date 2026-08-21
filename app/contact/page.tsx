@@ -119,6 +119,7 @@ export default function ContactPage() {
                 href={item.href}
                 target={item.href.startsWith("http") ? "_blank" : undefined}
                 rel={item.href.startsWith("http") ? "noreferrer" : undefined}
+                style={{ borderColor: "#D4AF37" }}
                 className="group rounded-[16px] border border-sky-200/15 bg-white/5 p-6 text-left shadow-[0_16px_28px_rgba(8,15,30,0.22)] transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300/60 hover:shadow-[0_18px_32px_rgba(45,212,191,0.12)] sm:p-[38px_36px]"
               >
                 <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#0d2c38] text-[#ed526c] ring-1 ring-inset ring-white/10">
@@ -146,7 +147,7 @@ export default function ContactPage() {
           />
 
           <div className="mt-10 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-            <div className="rounded-[1.75rem] border border-slate-200 bg-white p-6 sm:p-8 shadow-[0_18px_36px_rgba(15,23,42,0.05)]">
+            <div style={{ borderColor: "#D4AF37" }} className="rounded-[1.75rem] border border-slate-200 bg-white p-6 sm:p-8 shadow-[0_18px_36px_rgba(15,23,42,0.05)]">
               <h2 className="font-display text-3xl text-slate-900">We&apos;re here to help</h2>
               <p className="mt-4 text-base leading-8 text-slate-600">
                 Whether you&apos;re looking for guidance, a clear next step, or support with your goals, we&apos;d love to hear from you.
@@ -159,6 +160,7 @@ export default function ContactPage() {
                     href={item.href}
                     target={item.href.startsWith("http") ? "_blank" : undefined}
                     rel={item.href.startsWith("http") ? "noreferrer" : undefined}
+                    style={{ borderColor: "#D4AF37" }}
                     className="flex flex-col items-start gap-1 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-4 transition-colors hover:border-slate-300 hover:bg-slate-100 sm:flex-row sm:items-center sm:justify-between sm:gap-4"
                   >
                     <span className="text-sm font-medium text-slate-600">{item.label}</span>
@@ -168,7 +170,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="rounded-[1.75rem] border border-slate-200 bg-slate-900 p-6 sm:p-8 text-white shadow-[0_24px_45px_rgba(15,23,42,0.14)]">
+            <div style={{ borderColor: "#D4AF37" }} className="rounded-[1.75rem] border border-slate-200 bg-slate-900 p-6 sm:p-8 text-white shadow-[0_24px_45px_rgba(15,23,42,0.14)]">
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-300">Quick start</p>
               <h3 className="mt-4 font-display text-3xl">Start with clarity.</h3>
               <p className="mt-4 text-sm leading-7 text-slate-300">
