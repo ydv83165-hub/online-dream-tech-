@@ -263,49 +263,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-14 sm:py-16 lg:py-20 bg-slate-50">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">Our Technology Stack</p>
-            <h2 className="mt-4 font-display text-4xl text-slate-900 sm:text-5xl">
-              Built With the Best <span className="italic">Technologies</span>
-            </h2>
-            <p className="mt-5 text-base leading-8 text-slate-600 max-w-3xl mx-auto">
-              We use industry-leading tools and frameworks to deliver fast, secure, and scalable digital products for our clients worldwide.
-            </p>
-          </div>
-
-          <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              "Next.js",
-              "React.js",
-              "Node.js",
-              "TypeScript",
-              "Shopify",
-              "WooCommerce",
-              "Angular",
-              "MySQL",
-              "Tailwind CSS",
-              "Vue.js",
-              "React Native",
-              "Webflow",
-              "Python / Django",
-              "Google Cloud",
-              "OpenAI / GPT",
-              "WordPress",
-            ].map((tech) => (
-              <div
-                key={tech}
-                style={{ borderColor: "#D4AF37" }}
-                className="rounded-2xl border border-slate-200 bg-white px-4 py-4 text-center text-sm font-medium text-slate-800 shadow-[0_10px_20px_rgba(15,23,42,0.04)] transition-all duration-300 hover:-translate-y-1 hover:border-primary/35 hover:shadow-[0_14px_28px_rgba(15,23,42,0.08)] hover:bg-slate-50"
-              >
-                {tech}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="py-14 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8 text-center">
