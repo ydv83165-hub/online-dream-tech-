@@ -165,10 +165,10 @@ export default function HomePage() {
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">Our story</p>
               <h2 className="mt-4 font-display text-4xl text-slate-900 sm:text-5xl">Built for curious minds and ambitious goals.</h2>
-              <p className="mt-5 text-base leading-8 text-slate-600">
+              <p className="mt-3 text-base leading-8 text-slate-600">
                 {MISSION.english}
               </p>
-              <p className="mt-4 text-base leading-8 text-slate-600">
+              <p className="mt-3 text-base leading-8 text-slate-600">
                 {MISSION.englishMission}
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
