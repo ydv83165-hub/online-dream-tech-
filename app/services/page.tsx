@@ -561,68 +561,6 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="bg-white py-20 sm:py-24 lg:py-28">
-        <div className="mx-auto w-full max-w-full">
-          <div className="mb-14 flex items-center justify-center">
-            <span className="text-[10px] font-bold uppercase tracking-[0.32em] text-slate-900">
-              TECHNOLOGIES WE WORK WITH
-            </span>
-          </div>
-
-          <div className="relative w-full overflow-hidden">
-            <style jsx>{`
-              @keyframes marquee {
-                0% {
-                  transform: translateX(0);
-                }
-                100% {
-                  transform: translateX(-50%);
-                }
-              }
-              .marquee-container {
-                animation: marquee 32s linear infinite;
-              }
-              .marquee-container:hover {
-                animation-play-state: paused;
-              }
-            `}</style>
-            
-            <div className="marquee-container flex gap-16 whitespace-nowrap lg:gap-20">
-              {[
-                "Next.js",
-                "React Native",
-                "Vue",
-                "MySQL",
-                "Python",
-                "MongoDB",
-                "React",
-                "Node.js",
-                "Angular",
-              ]
-                .concat([
-                  "Next.js",
-                  "React Native",
-                  "Vue",
-                  "MySQL",
-                  "Python",
-                  "MongoDB",
-                  "React",
-                  "Node.js",
-                  "Angular",
-                ])
-                .map((tech, idx) => (
-                  <span
-                    key={idx}
-                    className="inline-block px-2 text-2xl font-bold text-slate-900 sm:text-3xl lg:text-4xl"
-                  >
-                    {tech}
-                  </span>
-                ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="bg-[#f5eff1] py-20 sm:py-24 lg:py-28">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12 flex items-center justify-center gap-3">
