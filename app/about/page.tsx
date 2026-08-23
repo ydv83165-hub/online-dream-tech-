@@ -24,8 +24,10 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="bg-[#0e172d]">
-      <section className="about-panel relative overflow-hidden border-b border-white/10 pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,109,77,0.16),transparent_25%),radial-gradient(circle_at_bottom_right,rgba(29,78,216,0.18),transparent_30%)]" />
+      <section className="about-panel relative overflow-hidden bg-[#0B132B] border-b border-white/10 pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16">
+        <div className="absolute inset-0 bg-[url('/about%20Who%20we%20are.png')] bg-cover bg-center opacity-[0.08] blur-2xl scale-110" aria-hidden="true" />
+        <div className="absolute inset-0 bg-[linear-gradient(135deg,#0B132B_0%,#111827_52%,#0B132B_100%)] opacity-95" />
+        <div className="absolute inset-0 bg-[#020617]/35" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
