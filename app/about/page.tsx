@@ -24,9 +24,16 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <div className="bg-[#0e172d]">
-      <section className="about-panel relative overflow-hidden bg-[#0B132B] border-b border-white/10 pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16">
-        <div className="absolute inset-0 bg-[url('/about%20Who%20we%20are.png')] bg-cover bg-center opacity-[0.08] blur-2xl scale-110" aria-hidden="true" />
-        <div className="absolute inset-0 bg-[linear-gradient(135deg,#0B132B_0%,#111827_52%,#0B132B_100%)] opacity-95" />
+      <section
+        className="about-panel relative overflow-hidden bg-[#0B132B] bg-cover bg-center bg-no-repeat border-b border-white/10 pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16"
+        style={{
+          backgroundImage:
+            "linear-gradient(135deg, rgba(7, 18, 43, 0.78), rgba(17, 24, 39, 0.7)), url('/about-business-workspace.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-[linear-gradient(135deg,#0B132B_0%,#111827_52%,#0B132B_100%)] opacity-40" />
         <div className="absolute inset-0 bg-[#020617]/35" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -38,12 +45,13 @@ export default function AboutPage() {
               </div>
 
               <h1 className="font-display text-4xl leading-[0.95] tracking-[-0.04em] text-white sm:text-5xl lg:text-[4.3rem]">
-                We build clarity,
-                <span className="mt-2 block text-white">confidence, and momentum.</span>
+                We build clarity, confidence,and momentum.
               </h1>
 
               <p className="mt-6 max-w-lg text-base leading-8 text-slate-200 sm:text-lg">
-                {MISSION.english} We partner with students, professionals, and growing brands to turn ideas into focused action and sustainable results.
+                <span className="block">{MISSION.english}</span>
+                <span className="block">We partner with students, professionals, and growing brands</span>
+                <span className="block">to turn ideas into focused action and sustainable results.</span>
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -67,21 +75,6 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="relative">
-              <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-primary/10 via-sky-100/10 to-indigo-100/10 blur-2xl" />
-              <div className="about-card relative overflow-hidden rounded-[2rem] border border-white/15 bg-white p-3 shadow-[0_24px_70px_rgba(15,23,42,0.28)] sm:p-4 hover:border-[#f07889]/60">
-                <img
-                  src="/about%20Who%20we%20are.png"
-                  alt="About Who We Are"
-                  className="h-[320px] w-full rounded-[1.5rem] object-cover sm:h-[500px] lg:h-[560px]"
-                />
-              </div>
-
-              <div className="absolute -bottom-4 left-4 rounded-2xl border border-white/10 bg-[#11213f]/90 px-4 py-3 shadow-[0_18px_32px_rgba(15,23,42,0.22)] backdrop-blur-sm sm:left-6">
-                <div className="text-[11px] font-semibold uppercase tracking-[0.2em] text-slate-300">Approach</div>
-                <div className="mt-1 font-display text-2xl text-white">Practical & strategic</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
