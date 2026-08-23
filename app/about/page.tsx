@@ -59,16 +59,16 @@ export default function AboutPage() {
                 <Button href="/services" variant="secondary" size="lg">See our work</Button>
               </div>
 
-              <div className="mt-8 flex flex-wrap gap-4 text-sm text-slate-200">
-                <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 shadow-[0_14px_28px_rgba(15,23,42,0.16)] backdrop-blur-sm">
+              <div className="mt-8 grid grid-cols-3 gap-4 text-sm text-slate-200">
+                <div className="flex h-24 min-w-0 flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-2 py-3 text-center shadow-[0_14px_28px_rgba(15,23,42,0.16)] backdrop-blur-sm">
                   <div className="font-display text-2xl text-white">9+</div>
                   <div className="mt-1 text-xs uppercase tracking-[0.18em] text-slate-300">Years</div>
                 </div>
-                <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 shadow-[0_14px_28px_rgba(15,23,42,0.16)] backdrop-blur-sm">
+                <div className="flex h-24 min-w-0 flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-2 py-3 text-center shadow-[0_14px_28px_rgba(15,23,42,0.16)] backdrop-blur-sm">
                   <div className="font-display text-2xl text-white">100+</div>
                   <div className="mt-1 text-xs uppercase tracking-[0.18em] text-slate-300">Projects</div>
                 </div>
-                <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 shadow-[0_14px_28px_rgba(15,23,42,0.16)] backdrop-blur-sm">
+                <div className="flex h-24 min-w-0 flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-2 py-3 text-center shadow-[0_14px_28px_rgba(15,23,42,0.16)] backdrop-blur-sm">
                   <div className="font-display text-2xl text-white">50+</div>
                   <div className="mt-1 text-xs uppercase tracking-[0.18em] text-slate-300">Industries</div>
                 </div>
