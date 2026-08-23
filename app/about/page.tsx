@@ -44,9 +44,9 @@ export default function AboutPage() {
                 Who we are
               </div>
 
-              <h1 className="font-display text-4xl leading-[0.95] tracking-[-0.04em] text-white sm:text-5xl lg:text-[4.3rem]">
+              <h2 className="font-display text-4xl leading-[0.95] tracking-[-0.04em] text-white sm:text-5xl lg:text-[4.3rem]">
                 We build clarity, confidence,and momentum.
-              </h1>
+              </h2>
 
               <p className="mt-6 max-w-lg text-base leading-8 text-slate-200 sm:text-lg">
                 <span className="block">{MISSION.english}</span>
