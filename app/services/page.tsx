@@ -374,7 +374,13 @@ export default function ServicesPage() {
 
   return (
     <div className="services-page">
-      <section className="relative overflow-hidden bg-[#071426]">
+      <section
+        className="relative overflow-hidden bg-[#071426] bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            'linear-gradient(rgba(5, 20, 38, 0.62), rgba(5, 20, 38, 0.62)), url("/2 hero Futuristic technology.png")',
+        }}
+      >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(18,201,201,0.14),_transparent_26%),radial-gradient(circle_at_bottom_right,_rgba(71,85,105,0.18),_transparent_26%)]" />
         <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#f07889]/70 to-transparent" />
 
