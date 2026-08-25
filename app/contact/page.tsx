@@ -24,7 +24,7 @@ const CONTACT_ITEMS = [
   {
     label: "Call",
     value: BRAND.whatsappDisplay,
-    href: `tel:+91 xxxxxxxxxx`,
+    href: `tel:+91 9936860125`,
   },
 ] as const;
 
@@ -44,8 +44,8 @@ const CONTACT_INFO = [
   {
     title: "Call us",
     description: "Mon – Sat, 10:00 AM – 7:00 PM IST",
-    detail: "+91 XXXXXXXXXX",
-    href: "tel:+91 xxxxxxxxxxx",
+    detail: "+91 9936860125",
+    href: "tel:+91 9936860125",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
         <path d="M6.6 4.3h2.4l1.4 4.9-1.8 1.8c1.2 2.6 3.2 4.6 5.8 5.8l1.8-1.8 4.9 1.4v2.4c0 .9-.7 1.6-1.6 1.6A14.9 14.9 0 0 1 4.4 6.1c0-.9.7-1.6 1.6-1.6Z" />
