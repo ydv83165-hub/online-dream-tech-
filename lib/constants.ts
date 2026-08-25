@@ -5,9 +5,9 @@ export const BRAND = {
   taglineFitness: "Practical guidance, long-term growth, and meaningful progress.",
   domain: "onlinedreamtech.com",
   legalName: "Online Dream Tech",
-  whatsapp: "91xxxxxxxx",
-  whatsappDisplay: "+91-xxxxxxxx",
-  fssai: "xxxxxxxxxxxxxx",
+  whatsapp: "91 9936860125",
+  whatsappDisplay: "+91 9936860125",
+ 
   email: "hello@onlinedreamtech.com",
 } as const;
 
