@@ -54,7 +54,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/services#website-development" className="text-slate-300 hover:text-white text-sm transition-colors inline-block py-1">
-                  Website Development
+                 Website development
                 </Link>
               </li>
               <li>
