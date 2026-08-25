@@ -187,7 +187,7 @@ export default function ContactPage() {
               </div>
 
               <p className="mt-6 text-xs text-slate-400">
-                Prefer a quick call? Reach us at <Link href="tel:+91xxxxxxxxxx" className="text-white underline underline-offset-2">+91-8796429741</Link>
+                Prefer a quick call? Reach us at <Link href="tel:+91 9936860125" className="text-white underline underline-offset-2">+91 9936860125</Link>
               </p>
             </div>
           </div>
