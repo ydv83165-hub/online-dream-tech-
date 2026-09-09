@@ -178,10 +178,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-slate-200 bg-white py-14 sm:py-16 lg:py-20">
+      <section className="about-panel bg-white py-14 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 lg:grid-cols-2">
-            <article className="about-card flex h-full flex-col rounded-[1.5rem] border border-slate-200 bg-[#F8FAFC] p-7 shadow-[0_12px_28px_rgba(15,23,42,0.04)] sm:p-8 hover:border-[#f07889]/60">
+            <article className="about-card flex h-full flex-col rounded-[1.5rem] border border-[#D4AF37] bg-[#F8FAFC] p-7 shadow-[0_12px_28px_rgba(15,23,42,0.04)] sm:p-8 hover:border-[#D4AF37]">
               <div className="mb-4 text-[11px] font-bold uppercase tracking-[0.22em] text-[#f07889]">Mission</div>
               <h3 className="text-2xl font-extrabold leading-tight tracking-[-0.03em] text-[#111111] sm:text-[2rem]">
                 Deliver creative, strategic and ROI driven digital solutions
@@ -191,7 +191,7 @@ export default function AboutPage() {
               </p>
             </article>
 
-            <article className="about-card flex h-full flex-col rounded-[1.5rem] border border-slate-200 bg-[#F8FAFC] p-7 shadow-[0_12px_28px_rgba(15,23,42,0.04)] sm:p-8 hover:border-[#f07889]/60">
+            <article className="about-card flex h-full flex-col rounded-[1.5rem] border border-[#D4AF37] bg-[#F8FAFC] p-7 shadow-[0_12px_28px_rgba(15,23,42,0.04)] sm:p-8 hover:border-[#D4AF37]">
               <div className="mb-4 text-[11px] font-bold uppercase tracking-[0.22em] text-[#f07889]">Vision</div>
               <h3 className="text-2xl font-extrabold leading-tight tracking-[-0.03em] text-[#111111] sm:text-[2rem]">
                 Be the trusted digital transformation partner for Indian businesses
@@ -254,7 +254,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-slate-200 bg-white py-16 sm:py-18 lg:py-24">
+      <section className="about-panel bg-white py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
@@ -275,7 +275,7 @@ export default function AboutPage() {
             ].map((stat) => (
               <article
                 key={stat.label}
-                className="about-card flex h-full flex-col items-center rounded-[1.25rem] border border-slate-200 bg-[#F8FAFC] p-7 text-center shadow-[0_12px_28px_rgba(15,23,42,0.04)] sm:p-8 hover:border-[#f07889]/60"
+                className="about-card flex h-full flex-col items-center rounded-[1.25rem] border border-[#D4AF37] bg-[#F8FAFC] p-7 text-center shadow-[0_12px_28px_rgba(15,23,42,0.04)] sm:p-8 hover:border-[#D4AF37]"
               >
                 <div className="text-4xl font-extrabold tracking-[-0.05em] text-[#f07889] sm:text-5xl lg:text-[3.2rem]">
                   {stat.value}
@@ -289,7 +289,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-slate-200 bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
+      <section className="about-panel bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
@@ -311,7 +311,7 @@ export default function AboutPage() {
             ].map((member) => (
               <article
                 key={member.name}
-                className="about-card group overflow-hidden rounded-[1.5rem] border border-slate-300 bg-white shadow-[0_18px_36px_rgba(15,23,42,0.06)] hover:border-[#f07889] hover:shadow-[0_22px_44px_rgba(240,120,137,0.12)]"
+                className="about-card group overflow-hidden rounded-[1.5rem] border border-[#D4AF37] bg-white shadow-[0_18px_36px_rgba(15,23,42,0.06)] hover:border-[#D4AF37] hover:shadow-[0_22px_44px_rgba(240,120,137,0.12)]"
               >
                 <div className="flex h-52 items-center justify-center bg-[#F3F6F8] transition-colors duration-300 group-hover:bg-[#EDF9FB] sm:h-60">
                   <div className="flex h-24 w-24 items-center justify-center rounded-full bg-white text-3xl font-extrabold text-[#f07889] shadow-[0_10px_26px_rgba(240,120,137,0.12)] sm:h-28 sm:w-28">
@@ -319,7 +319,7 @@ export default function AboutPage() {
                   </div>
                 </div>
 
-                <div className="border-t border-slate-200 bg-white p-5 sm:p-6">
+                <div className="border-t border-[#D4AF37] bg-white p-5 sm:p-6">
                   <div className="mb-3 h-1.5 w-10 rounded-full bg-[#f07889]" />
                   <h3 className="text-2xl font-bold text-[#111111]">{member.name}</h3>
                   <p className="mt-2 text-base text-[#333333]">{member.role}</p>
@@ -332,7 +332,7 @@ export default function AboutPage() {
 
       <section className="about-panel bg-white py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
-          <div className="about-card rounded-[1.75rem] border border-slate-200 bg-white p-6 shadow-[0_16px_34px_rgba(15,23,42,0.04)] sm:p-8 lg:p-10 hover:border-[#f07889]/60">
+          <div className="about-card rounded-[1.75rem] border border-[#D4AF37] bg-white p-6 shadow-[0_16px_34px_rgba(15,23,42,0.04)] sm:p-8 lg:p-10 hover:border-[#D4AF37]">
             <div className="flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-center">
               <div className="max-w-xl">
                 <h3 className="text-3xl font-extrabold leading-[1.08] tracking-[-0.04em] text-[#111111] sm:text-4xl lg:text-[3rem]">
