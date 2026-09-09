@@ -96,7 +96,13 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <section className="relative overflow-hidden bg-[#071426]">
+      <section
+        className="relative overflow-hidden bg-[#071426] bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            "linear-gradient(135deg, rgba(7, 20, 38, 0.78), rgba(7, 20, 38, 0.64)), url('/2%20hero%20Futuristic%20technology.png')",
+        }}
+      >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(89,208,255,0.13),transparent_33%),radial-gradient(circle_at_bottom_right,_rgba(237,82,108,0.08),transparent_30%)]" />
 
         <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
