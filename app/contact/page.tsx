@@ -73,7 +73,7 @@ export default function ContactPage() {
         className="relative overflow-hidden bg-[#071426] bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "linear-gradient(135deg, rgba(7, 20, 38, 0.82), rgba(7, 20, 38, 0.66)), url('/1%20hero%20Technology.png')",
+            "linear-gradient(135deg, rgba(7, 20, 38, 0.78), rgba(7, 20, 38, 0.68)), url('/1%20hero%20Technology.png')",
         }}
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(89,208,255,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(29,78,216,0.14),transparent_30%)]" />
