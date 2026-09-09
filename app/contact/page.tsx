@@ -100,10 +100,10 @@ export default function ContactPage() {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-[460px]">
+            <div className="w-full max-w-[520px]">
               <StoryLottie
                 source="/lotie/Tech%20support%20and%20customer%20contact%20page.json"
-                className="h-[260px] w-full sm:h-[380px]"
+                className="h-[320px] w-full sm:h-[420px] lg:h-[480px]"
               />
             </div>
           </div>
