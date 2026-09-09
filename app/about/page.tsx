@@ -119,7 +119,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-[#D4AF37] bg-[#f5f7fb] py-14 sm:py-16 lg:py-20">
+      <section className="about-panel bg-[#f5f7fb] py-14 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
