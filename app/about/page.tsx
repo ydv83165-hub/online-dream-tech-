@@ -330,7 +330,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-[#D4AF37] bg-white py-16 sm:py-18 lg:py-24">
+      <section className="about-panel bg-white py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
           <div className="about-card rounded-[1.75rem] border border-slate-200 bg-white p-6 shadow-[0_16px_34px_rgba(15,23,42,0.04)] sm:p-8 lg:p-10 hover:border-[#f07889]/60">
             <div className="flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-center">
