@@ -69,8 +69,14 @@ const CONTACT_INFO = [
 export default function ContactPage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-[#071426]">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(89,208,255,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(29,78,216,0.14),transparent_30%)]" />
+      <section className="relative isolate overflow-hidden bg-[#071426]">
+        <div
+          aria-hidden="true"
+          className="absolute -inset-4 scale-105 bg-cover bg-center opacity-45 blur-[2px]"
+          style={{ backgroundImage: "url('/about-business-workspace.jpg')" }}
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(110deg,rgba(4,16,35,0.94)_0%,rgba(7,25,50,0.84)_48%,rgba(8,30,57,0.7)_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_78%_42%,rgba(89,208,255,0.2),transparent_28%),radial-gradient(circle_at_18%_10%,rgba(29,78,216,0.18),transparent_32%)]" />
         <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12 lg:px-8 lg:py-24">
           <div className="text-center lg:text-left">
             <nav aria-label="Breadcrumb" className="flex justify-center lg:justify-start">
@@ -99,11 +105,12 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-[460px]">
+          <div className="relative flex justify-center lg:justify-end">
+            <div className="absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-300/10 blur-3xl sm:h-80 sm:w-80" />
+            <div className="relative w-full max-w-[460px] rounded-[2rem] border border-white/10 bg-white/[0.035] p-2 shadow-[0_24px_70px_rgba(2,12,30,0.35)] backdrop-blur-[2px] sm:p-3">
               <StoryLottie
                 source="/lotie/Tech%20support%20and%20customer%20contact%20page.json"
-                className="h-[260px] w-full sm:h-[380px]"
+                className="h-[260px] w-full sm:h-[380px] lg:h-[410px]"
               />
             </div>
           </div>
