@@ -237,7 +237,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="bg-white px-4 py-14 sm:px-6 lg:px-8">
+      <section className="bg-[#f5eeef] px-4 py-14 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-5xl text-center">
           <p className="text-[16px] font-medium uppercase tracking-[0.08em] text-[#ed526c] sm:text-[18px]">
             Let&apos;s build momentum
