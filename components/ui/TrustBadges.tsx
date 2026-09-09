@@ -3,7 +3,6 @@ import { BRAND, DELIVERY } from "@/lib/constants";
 export function TrustBadges() {
   const items = [
     "100% Natural",
-    "FSSAI " + BRAND.fssai,
     "Made in India",
     DELIVERY.coverage,
     "Same-day dispatch",

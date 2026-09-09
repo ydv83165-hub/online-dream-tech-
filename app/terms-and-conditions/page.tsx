@@ -139,9 +139,9 @@ export default function TermsPage() {
               6. Food Safety
             </h2>
             <p>
-              {BRAND.legalName} products are manufactured and packed under FSSAI License
-              No. {BRAND.fssai}. Store products in a cool, dry place. Check the
-              packaging for best-before date and storage instructions.
+              {BRAND.legalName} products should be stored in a cool, dry place.
+              Check the packaging for the best-before date, ingredients, and
+              storage instructions before use.
             </p>
           </section>
 
