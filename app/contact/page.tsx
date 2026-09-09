@@ -71,6 +71,12 @@ export default function ContactPage() {
     <>
       <section className="relative overflow-hidden bg-[#071426]">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(89,208,255,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(29,78,216,0.14),transparent_30%)]" />
+        <div className="pointer-events-none absolute -right-24 -top-24 hidden h-[560px] w-[760px] opacity-25 lg:block">
+          <StoryLottie
+            source="/lotie/Tech%20support%20and%20customer%20contact%20page.json"
+            className="h-full w-full"
+          />
+        </div>
         <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12 lg:px-8 lg:py-24">
           <div className="text-center lg:text-left">
             <nav aria-label="Breadcrumb" className="flex justify-center lg:justify-start">
@@ -100,10 +106,10 @@ export default function ContactPage() {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-[520px]">
+            <div className="w-full max-w-[460px]">
               <StoryLottie
                 source="/lotie/Tech%20support%20and%20customer%20contact%20page.json"
-                className="h-[320px] w-full sm:h-[420px] lg:h-[480px]"
+                className="h-[320px] w-full sm:h-[420px]"
               />
             </div>
           </div>
