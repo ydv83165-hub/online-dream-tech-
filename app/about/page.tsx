@@ -84,7 +84,7 @@ export default function AboutPage() {
         <div className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-rose-100/40 blur-3xl" />
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
-            <div className="relative">
+            <div className="relative lg:-translate-x-[5%]">
               <div className="absolute -inset-6 rounded-[2rem] bg-[radial-gradient(circle_at_center,rgba(240,120,137,0.15),transparent_60%)] blur-2xl" />
               <div className="about-card relative overflow-hidden rounded-[1.75rem] border border-white bg-white/80 p-3 shadow-[0_24px_55px_rgba(15,23,42,0.14)] sm:p-4 lg:p-5 hover:border-[#f07889]/60">
                 <img
@@ -95,7 +95,7 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="max-w-xl lg:pl-4">
+            <div className="max-w-xl lg:translate-x-[5%] lg:pl-4">
               <div className="mb-5 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
                 <span className="h-2.5 w-2.5 rounded-full bg-[#f07889] shadow-[0_0_18px_rgba(240,120,137,0.8)]" />
                 Our Story
