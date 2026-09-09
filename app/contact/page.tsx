@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BRAND } from "@/lib/constants";
 import { PremiumSectionHeading } from "@/components/ui/PremiumSectionHeading";
 import { Button } from "@/components/ui/Button";
+import { StoryLottie } from "@/components/home/StoryLottie";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -69,13 +70,21 @@ export default function ContactPage() {
   return (
     <>
       <section
-        className="relative overflow-hidden bg-[#071426] bg-cover bg-center bg-no-repeat"
+        className="relative min-h-[420px] overflow-hidden bg-[#071426] bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "linear-gradient(135deg, rgba(7, 20, 38, 0.82), rgba(7, 20, 38, 0.68)), url('/2%20hero%20Futuristic%20technology.png')",
+            "linear-gradient(135deg, #071426, #0b2550 52%, #071426)",
         }}
       >
-        <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12 lg:px-8 lg:py-24">
+        <div className="pointer-events-none absolute inset-0 opacity-90">
+          <StoryLottie
+            source="/lotie/Tech%20support%20and%20customer%20contact%20page.json"
+            className="h-full min-h-[420px] w-full"
+          />
+        </div>
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(7,20,38,0.86)_0%,rgba(7,20,38,0.62)_42%,rgba(7,20,38,0.18)_100%)]" />
+
+        <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
           <div className="text-center lg:text-left">
             <nav aria-label="Breadcrumb" className="flex justify-center lg:justify-start">
               <ol className="flex items-center gap-2 text-sm font-medium tracking-wide">
