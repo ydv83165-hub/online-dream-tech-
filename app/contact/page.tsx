@@ -202,9 +202,9 @@ export default function ContactPage() {
       </div>
 
       <section className="bg-[#ffffff] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
-        <div className="mx-auto max-w-5xl">
+        <div className="mx-auto max-w-7xl">
           <div className="relative overflow-hidden rounded-[28px] border border-[#D4AF37] bg-[#0a1b2e] shadow-[0_22px_55px_rgba(7,20,38,0.35)]">
-            <div className="relative h-[420px] w-full sm:h-[500px] lg:h-[560px]">
+            <div className="relative h-[440px] w-full sm:h-[560px] lg:h-[640px]">
               <iframe
                 title="Online Dream Tech location map"
                 src="https://www.google.com/maps?q=B20+Near+Ram+Mandir,+Kewal+Park,+Azadpur,+New+Delhi,+Delhi,+110033,+India&output=embed"
