@@ -54,9 +54,9 @@ const CONTACT_INFO = [
   },
   {
     title: "Visit us",
-    description: "Delhi NCR, India",
+    description: "B20 Near Ram Mandir Kewal Park, Azadpur, New Delhi, Delhi, 110033, India",
     detail: "Get directions",
-    href: "https://maps.google.com/?q=Delhi+NCR+India",
+    href: "https://maps.google.com/?q=B20+Near+Ram+Mandir+Kewal+Park,+Azadpur,+New+Delhi,+Delhi,+110033,+India",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
         <path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z" />
@@ -216,7 +216,7 @@ export default function ContactPage() {
 
                 <div>
                   <h3 className="text-2xl font-bold text-white sm:text-3xl">Online Dream Tech</h3>
-                  <p className="mt-2 text-base text-sky-200/80 sm:text-lg">Delhi NCR, India</p>
+                  <p className="mt-2 text-base leading-7 text-sky-200/80 sm:text-lg">B20 Near Ram Mandir Kewal Park, Azadpur, New Delhi, Delhi, 110033, India</p>
                 </div>
               </div>
             </div>
