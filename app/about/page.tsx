@@ -119,7 +119,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-slate-200 bg-[#f5f7fb] py-14 sm:py-16 lg:py-20">
+      <section className="about-panel border-b border-[#D4AF37] bg-[#f5f7fb] py-14 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
@@ -132,7 +132,7 @@ export default function AboutPage() {
           </div>
 
           <div className="relative mx-auto mt-12 max-w-4xl">
-            <div className="absolute left-[19px] top-0 h-full w-px bg-[#f07889]/80 sm:left-[22px]" />
+            <div className="absolute left-[19px] top-0 h-full w-px bg-[#D4AF37] sm:left-[22px]" />
 
             <div className="space-y-10 sm:space-y-12">
               {[
@@ -162,11 +162,11 @@ export default function AboutPage() {
                 },
               ].map((item) => (
                 <div key={item.number} className="relative pl-14 sm:pl-16">
-                  <div className="absolute left-0 top-2 flex h-10 w-10 items-center justify-center rounded-full border-2 border-[#f07889] bg-[#f5f7fb] shadow-[0_0_0_4px_rgba(240,120,137,0.12)] sm:h-11 sm:w-11">
+                  <div className="absolute left-0 top-2 flex h-10 w-10 items-center justify-center rounded-full border-2 border-[#D4AF37] bg-[#f5f7fb] shadow-[0_0_0_4px_rgba(212,175,55,0.16)] sm:h-11 sm:w-11">
                     <span className="h-2.5 w-2.5 rounded-full bg-[#f07889]" />
                   </div>
 
-                  <div className="about-card rounded-[1.5rem] border border-slate-200 bg-white/80 p-5 shadow-[0_14px_28px_rgba(15,23,42,0.04)] sm:p-6 hover:border-[#f07889]/60">
+                  <div className="about-card rounded-[1.5rem] border border-[#D4AF37] bg-white/80 p-5 shadow-[0_14px_28px_rgba(15,23,42,0.04)] sm:p-6 hover:border-[#D4AF37]">
                     <div className="mb-2 text-sm font-bold tracking-[0.14em] text-[#111111]">{item.number} — {item.title}</div>
                     <h3 className="text-xl font-bold text-[#111111] sm:text-2xl">{item.subtitle}</h3>
                     <p className="mt-3 text-base leading-7 text-[#334155]">{item.text}</p>
