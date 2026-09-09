@@ -113,9 +113,6 @@ export default function AboutPage() {
                 <p>
                   With a passion for innovation, our skilled team of developers and designers is dedicated to crafting bespoke software and websites that elevate your brand. We pride ourselves on client satisfaction, transparency, and a client-centric approach.
                 </p>
-                <p>
-                  Whether you’re a startup or an established enterprise, Online Dream Tech is your partner in turning ideas into reality and ensuring a strong digital presence.
-                </p>
               </div>
             </div>
           </div>
