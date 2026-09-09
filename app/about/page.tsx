@@ -23,18 +23,18 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="bg-[#0e172d]">
+    <div className="bg-[#16304d]">
       <section
-        className="about-panel relative overflow-hidden bg-[#0B132B] bg-cover bg-center bg-no-repeat border-b border-white/10 pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16"
+        className="about-panel relative overflow-hidden bg-[#16304d] bg-cover bg-center bg-no-repeat border-b border-white/10 pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16"
         style={{
           backgroundImage:
-            "linear-gradient(135deg, rgba(7, 18, 43, 0.78), rgba(17, 24, 39, 0.7)), url('/about-business-workspace.png')",
+            "linear-gradient(135deg, rgba(25, 86, 132, 0.46), rgba(31, 55, 88, 0.38)), url('/about-business-workspace.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-[linear-gradient(135deg,#0B132B_0%,#111827_52%,#0B132B_100%)] opacity-40" />
-        <div className="absolute inset-0 bg-[#020617]/35" />
+        <div className="absolute inset-0 bg-[linear-gradient(135deg,#17466b_0%,#1d4f75_52%,#17466b_100%)] opacity-20" />
+        <div className="absolute inset-0 bg-[#08233d]/15" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
