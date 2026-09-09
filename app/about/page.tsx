@@ -25,7 +25,7 @@ export default function AboutPage() {
   return (
     <div className="bg-[#16304d]">
       <section
-        className="about-panel relative overflow-hidden bg-[#16304d] bg-cover bg-center bg-no-repeat border-b border-[#D4AF37] pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16"
+        className="about-panel relative overflow-hidden bg-[#16304d] bg-cover bg-center bg-no-repeat border-b border-white/10 pb-12 pt-10 sm:pb-16 sm:pt-14 lg:pb-20 lg:pt-16"
         style={{
           backgroundImage:
             "linear-gradient(135deg, rgba(25, 86, 132, 0.46), rgba(31, 55, 88, 0.38)), url('/about-business-workspace.png')",
@@ -79,7 +79,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden border-y border-[#D4AF37] bg-[linear-gradient(135deg,#f8fbff_0%,#ffffff_48%,#fff7f8_100%)] py-14 sm:py-16 lg:py-20">
+      <section className="relative overflow-hidden border-y border-sky-100/80 bg-[linear-gradient(135deg,#f8fbff_0%,#ffffff_48%,#fff7f8_100%)] py-14 sm:py-16 lg:py-20">
         <div className="pointer-events-none absolute -left-24 top-16 h-72 w-72 rounded-full bg-sky-100/45 blur-3xl" />
         <div className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-rose-100/40 blur-3xl" />
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -119,7 +119,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-[#D4AF37] bg-[#f5f7fb] py-14 sm:py-16 lg:py-20">
+      <section className="about-panel border-b border-slate-200 bg-[#f5f7fb] py-14 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
@@ -178,7 +178,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-[#D4AF37] bg-white py-14 sm:py-16 lg:py-20">
+      <section className="about-panel border-b border-slate-200 bg-white py-14 sm:py-16 lg:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 lg:grid-cols-2">
             <article className="about-card flex h-full flex-col rounded-[1.5rem] border border-slate-200 bg-[#F8FAFC] p-7 shadow-[0_12px_28px_rgba(15,23,42,0.04)] sm:p-8 hover:border-[#f07889]/60">
@@ -204,7 +204,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-[#D4AF37] bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
+      <section className="about-panel border-b border-slate-200 bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
@@ -254,7 +254,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-[#D4AF37] bg-white py-16 sm:py-18 lg:py-24">
+      <section className="about-panel border-b border-slate-200 bg-white py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
@@ -289,7 +289,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-[#D4AF37] bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
+      <section className="about-panel border-b border-slate-200 bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
