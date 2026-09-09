@@ -204,7 +204,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-panel border-b border-slate-200 bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
+      <section className="about-panel bg-[#f5f7fb] py-16 sm:py-18 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <div className="mb-4 flex items-center justify-center gap-3 text-[11px] font-bold uppercase tracking-[0.24em] text-[#f07889]">
@@ -241,7 +241,7 @@ export default function AboutPage() {
             ].map((item) => (
               <article
                 key={item.title}
-                className="about-card flex h-full flex-col rounded-[1.25rem] border border-slate-200 bg-white p-6 shadow-[0_10px_24px_rgba(15,23,42,0.04)] sm:p-7 hover:border-[#f07889]/60"
+                className="about-card flex h-full flex-col rounded-[1.25rem] border border-[#D4AF37] bg-white p-6 shadow-[0_10px_24px_rgba(15,23,42,0.04)] sm:p-7 hover:border-[#D4AF37]"
               >
                 <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#f07889]/5 text-lg text-[#f07889] shadow-[0_8px_20px_rgba(240,120,137,0.12)]">
                   {item.icon}
