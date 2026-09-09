@@ -69,7 +69,13 @@ const CONTACT_INFO = [
 export default function ContactPage() {
   return (
     <>
-      <section className="relative overflow-hidden bg-[#071426]">
+      <section
+        className="relative overflow-hidden bg-[#071426] bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            "linear-gradient(135deg, rgba(7, 20, 38, 0.82), rgba(7, 20, 38, 0.66)), url('/1%20hero%20Technology.png')",
+        }}
+      >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(89,208,255,0.14),transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(29,78,216,0.14),transparent_30%)]" />
         <div className="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12 lg:px-8 lg:py-24">
           <div className="text-center lg:text-left">
