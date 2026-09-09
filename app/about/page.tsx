@@ -79,12 +79,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-white py-14 sm:py-16 lg:py-20">
+      <section className="relative overflow-hidden border-y border-sky-100/80 bg-[linear-gradient(135deg,#f8fbff_0%,#ffffff_48%,#fff7f8_100%)] py-14 sm:py-16 lg:py-20">
+        <div className="pointer-events-none absolute -left-24 top-16 h-72 w-72 rounded-full bg-sky-100/45 blur-3xl" />
+        <div className="pointer-events-none absolute -right-24 bottom-0 h-80 w-80 rounded-full bg-rose-100/40 blur-3xl" />
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-[0.95fr_1.05fr]">
             <div className="relative">
               <div className="absolute -inset-6 rounded-[2rem] bg-[radial-gradient(circle_at_center,rgba(240,120,137,0.15),transparent_60%)] blur-2xl" />
-              <div className="about-card relative overflow-hidden rounded-[1.75rem] border border-slate-200 bg-[#f5f7fa] p-3 shadow-[0_18px_40px_rgba(15,23,42,0.06)] sm:p-4 lg:p-5 hover:border-[#f07889]/60">
+              <div className="about-card relative overflow-hidden rounded-[1.75rem] border border-white bg-white/80 p-3 shadow-[0_24px_55px_rgba(15,23,42,0.14)] sm:p-4 lg:p-5 hover:border-[#f07889]/60">
                 <img
                   src="/about%20Our%20Story.png"
                   alt="Our Story"
@@ -99,7 +101,7 @@ export default function AboutPage() {
                 Our Story
               </div>
 
-              <h2 className="font-sans text-3xl font-extrabold leading-[1.08] tracking-[-0.04em] text-[#111111] sm:text-4xl lg:text-[3rem]">
+              <h2 className="font-sans text-3xl font-extrabold leading-[1.08] tracking-[-0.04em] text-[#0f172a] sm:text-4xl lg:text-[3.25rem]">
                 Built on client satisfaction
                 <span className="mt-1 block">&amp; transparency</span>
               </h2>
