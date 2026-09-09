@@ -203,20 +203,33 @@ export default function ContactPage() {
 
       <section className="bg-[#071426] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
         <div className="mx-auto max-w-5xl">
-          <div className="relative overflow-hidden rounded-[28px] border border-sky-100/15 bg-[#0a1b2e] shadow-[0_18px_45px_rgba(7,20,38,0.28)]">
-            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:32px_32px]" />
-            <div className="relative flex min-h-[220px] items-center justify-center px-6 py-10 text-center">
-              <div className="flex flex-col items-center justify-center gap-4">
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-[#0e2d3a] text-[#ed526c] ring-1 ring-inset ring-cyan-200/20">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-8 w-8">
-                    <path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z" />
-                    <circle cx="12" cy="10" r="2.5" />
-                  </svg>
-                </div>
+          <div className="relative overflow-hidden rounded-[28px] border border-[#D4AF37] bg-[#0a1b2e] shadow-[0_22px_55px_rgba(7,20,38,0.35)]">
+            <div className="relative h-[420px] w-full sm:h-[500px] lg:h-[560px]">
+              <iframe
+                title="Online Dream Tech location map"
+                src="https://www.google.com/maps?q=B20+Near+Ram+Mandir,+Kewal+Park,+Azadpur,+New+Delhi,+Delhi,+110033,+India&output=embed"
+                className="absolute inset-0 h-full w-full border-0 grayscale-[15%] contrast-[0.95]"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
 
-                <div>
-                  <h3 className="text-2xl font-bold text-white sm:text-3xl">Online Dream Tech</h3>
-                  <p className="mt-2 text-base leading-7 text-sky-200/80 sm:text-lg">B20 Near Ram Mandir Kewal Park, Azadpur, New Delhi, Delhi, 110033, India</p>
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#071426]/80 via-transparent to-[#071426]/10" />
+
+              <div className="absolute bottom-4 left-4 right-4 rounded-2xl border border-[#D4AF37]/70 bg-[#071426]/92 p-4 shadow-[0_16px_35px_rgba(2,12,30,0.35)] backdrop-blur-md sm:bottom-6 sm:left-6 sm:right-auto sm:max-w-[430px] sm:p-5">
+                <div className="flex items-start gap-3">
+                  <div className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#0e2d3a] text-[#ed526c] ring-1 ring-inset ring-cyan-200/20">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
+                      <path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11Z" />
+                      <circle cx="12" cy="10" r="2.5" />
+                    </svg>
+                  </div>
+
+                  <div>
+                    <h3 className="text-lg font-bold text-white sm:text-xl">Online Dream Tech</h3>
+                    <p className="mt-1 text-sm leading-6 text-sky-100/80">
+                      B20 Near Ram Mandir, Kewal Park, Azadpur, New Delhi, Delhi, 110033, India
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
