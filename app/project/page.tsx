@@ -10,8 +10,8 @@ type Project = {
   title: string;
   description: string;
   category: Exclude<Filter, "All">;
-  image: string;
   imageClass: string;
+  imageUrl: string;
 };
 
 const FILTERS: Filter[] = ["All", "Website", "Software", "App", "E-Commerce", "Marketing"];
@@ -22,72 +22,72 @@ const PROJECTS: Project[] = [
     title: "Corporate site for a real estate developer",
     description: "Gallery-led design with property listings and inquiry funnels.",
     category: "Website",
-    image: "/1%20Website%20Development.png",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(181,69,96,0.9),transparent_30%),linear-gradient(135deg,#0b1626,#1d3d59_52%,#0e2030)]",
+    imageUrl: "/1%20Website%20Development.png",
   },
   {
     id: 2,
     title: "D2C store for a dry fruits brand.",
     description: "WooCommerce build with custom quantity pricing and bilingual support.",
     category: "Website",
-    image: "/4E-Commerce%20Development.webp",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(237,82,108,0.8),transparent_30%),linear-gradient(135deg,#0b1424,#1c3550_54%,#0e1d31)]",
+    imageUrl: "/1%20Website%20Development.png",
   },
   {
     id: 3,
     title: "WhatsApp-based CRM for Indian SMBs",
     description: "Lead tracking and automated follow-ups built for small business teams.",
     category: "Website",
-    image: "/2%20Software%20Development.png",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(107,204,255,0.85),transparent_35%),linear-gradient(135deg,#091b2d,#173f61_52%,#0d1c2b)]",
+    imageUrl: "/1%20Website%20Development.png",
   },
   {
     id: 4,
     title: "Visa & immigration consultancy site",
     description: "Trust-driven layout with service breakdowns and consultation booking.",
     category: "Software",
-    image: "/2%20Software%20Development.png",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(181,69,96,0.82),transparent_28%),linear-gradient(135deg,#071827,#183d55_55%,#0a1d2d)]",
+    imageUrl: "/2%20Software%20Development.png",
   },
   {
     id: 5,
     title: "FlowPilot",
     description: "Workflow automation platform helping teams move faster with smarter reporting.",
     category: "Software",
-    image: "/2%20Software%20Development.png",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(160,210,255,0.75),transparent_28%),linear-gradient(135deg,#0a1a2c,#183d57_56%,#0f1b2e)]",
+    imageUrl: "/2%20Software%20Development.png",
   },
   {
     id: 6,
     title: "SignalDesk",
     description: "Custom software solution built for operational clarity, insights, and decision-making.",
     category: "Software",
-    image: "/2%20Software%20Development.png",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(237,82,108,0.7),transparent_30%),linear-gradient(135deg,#0b1829,#1d2f46_58%,#0a1d2b)]",
+    imageUrl: "/2%20Software%20Development.png",
   },
   {
     id: 7,
     title: "Horizon App",
     description: "Mobile-first product experience delivering simplified access and more user engagement.",
     category: "App",
-    image: "/3%20App%20Development.png",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(115,255,214,0.8),transparent_32%),linear-gradient(135deg,#071b2d,#173d56_60%,#0b1b2a)]",
+    imageUrl: "/3%20App%20Development.png",
   },
   {
     id: 8,
     title: "Luma Market",
     description: "Premium storefront experience focused on user trust, product storytelling, and conversions.",
     category: "E-Commerce",
-    image: "/4E-Commerce%20Development.webp",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(255,185,123,0.75),transparent_34%),linear-gradient(135deg,#091826,#26415f_57%,#0c1e2b)]",
+    imageUrl: "/4E-Commerce%20Development.webp",
   },
   {
     id: 9,
     title: "Launch Orbit",
     description: "Integrated marketing landing page built to amplify reach and attract qualified leads.",
     category: "Marketing",
-    image: "/6%20Digital%20Marketing.webp",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(237,82,108,0.8),transparent_30%),linear-gradient(135deg,#0a1a2a,#1e3356_58%,#0d1b2a)]",
+    imageUrl: "/6%20Digital%20Marketing.webp",
   },
 ];
 
@@ -174,12 +174,11 @@ export default function ProjectsPage() {
                 className="group w-full max-w-[360px] overflow-hidden rounded-[20px] border border-slate-200/80 bg-[#071426] text-white shadow-[0_18px_32px_rgba(7,20,38,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_36px_rgba(7,20,38,0.12)]"
               >
                 <div className={`relative h-52 overflow-hidden ${project.imageClass}`}>
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="absolute inset-0 h-full w-full object-cover opacity-90 transition-transform duration-500 group-hover:scale-105"
+                  <div
+                    aria-hidden="true"
+                    className="absolute inset-0 bg-cover bg-center opacity-75 mix-blend-screen"
+                    style={{ backgroundImage: `url("${project.imageUrl}")` }}
                   />
-                  <div className="absolute inset-0 bg-[#071426]/35" />
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(255,255,255,0.14),transparent_28%)]" />
                   <div className="absolute inset-0 opacity-30 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:24px_24px]" />
                   <div className="absolute left-4 top-4 rounded-full border border-white/15 bg-[#071426]/55 px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-[#d8fbf4] backdrop-blur-sm">
