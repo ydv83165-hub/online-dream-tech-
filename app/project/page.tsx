@@ -11,6 +11,7 @@ type Project = {
   description: string;
   category: Exclude<Filter, "All">;
   imageClass: string;
+  imageSrc: string;
 };
 
 const FILTERS: Filter[] = ["All", "Website", "Software", "App", "E-Commerce", "Marketing"];
@@ -22,6 +23,7 @@ const PROJECTS: Project[] = [
     description: "Gallery-led design with property listings and inquiry funnels.",
     category: "Website",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(181,69,96,0.9),transparent_30%),linear-gradient(135deg,#0b1626,#1d3d59_52%,#0e2030)]",
+    imageSrc: "/1%20Website%20Development.png",
   },
   {
     id: 2,
@@ -29,6 +31,7 @@ const PROJECTS: Project[] = [
     description: "WooCommerce build with custom quantity pricing and bilingual support.",
     category: "Website",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(237,82,108,0.8),transparent_30%),linear-gradient(135deg,#0b1424,#1c3550_54%,#0e1d31)]",
+    imageSrc: "/4E-Commerce%20Development.webp",
   },
   {
     id: 3,
@@ -36,6 +39,7 @@ const PROJECTS: Project[] = [
     description: "Lead tracking and automated follow-ups built for small business teams.",
     category: "Website",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(107,204,255,0.85),transparent_35%),linear-gradient(135deg,#091b2d,#173f61_52%,#0d1c2b)]",
+    imageSrc: "/2%20Software%20Development.png",
   },
   {
     id: 4,
@@ -43,6 +47,7 @@ const PROJECTS: Project[] = [
     description: "Trust-driven layout with service breakdowns and consultation booking.",
     category: "Software",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(181,69,96,0.82),transparent_28%),linear-gradient(135deg,#071827,#183d55_55%,#0a1d2d)]",
+    imageSrc: "/1%20Website%20Development.png",
   },
   {
     id: 5,
@@ -50,6 +55,7 @@ const PROJECTS: Project[] = [
     description: "Workflow automation platform helping teams move faster with smarter reporting.",
     category: "Software",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(160,210,255,0.75),transparent_28%),linear-gradient(135deg,#0a1a2c,#183d57_56%,#0f1b2e)]",
+    imageSrc: "/2%20Software%20Development.png",
   },
   {
     id: 6,
@@ -57,6 +63,7 @@ const PROJECTS: Project[] = [
     description: "Custom software solution built for operational clarity, insights, and decision-making.",
     category: "Software",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(237,82,108,0.7),transparent_30%),linear-gradient(135deg,#0b1829,#1d2f46_58%,#0a1d2b)]",
+    imageSrc: "/2%20Software%20Development.png",
   },
   {
     id: 7,
@@ -64,6 +71,7 @@ const PROJECTS: Project[] = [
     description: "Mobile-first product experience delivering simplified access and more user engagement.",
     category: "App",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(115,255,214,0.8),transparent_32%),linear-gradient(135deg,#071b2d,#173d56_60%,#0b1b2a)]",
+    imageSrc: "/3%20App%20Development.png",
   },
   {
     id: 8,
@@ -71,6 +79,7 @@ const PROJECTS: Project[] = [
     description: "Premium storefront experience focused on user trust, product storytelling, and conversions.",
     category: "E-Commerce",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(255,185,123,0.75),transparent_34%),linear-gradient(135deg,#091826,#26415f_57%,#0c1e2b)]",
+    imageSrc: "/4E-Commerce%20Development.webp",
   },
   {
     id: 9,
@@ -78,6 +87,7 @@ const PROJECTS: Project[] = [
     description: "Integrated marketing landing page built to amplify reach and attract qualified leads.",
     category: "Marketing",
     imageClass: "bg-[radial-gradient(circle_at_top_left,_rgba(237,82,108,0.8),transparent_30%),linear-gradient(135deg,#0a1a2a,#1e3356_58%,#0d1b2a)]",
+    imageSrc: "/6%20Digital%20Marketing.webp",
   },
 ];
 
@@ -164,6 +174,11 @@ export default function ProjectsPage() {
                 className="group w-full max-w-[360px] overflow-hidden rounded-[20px] border border-slate-200/80 bg-[#071426] text-white shadow-[0_18px_32px_rgba(7,20,38,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_36px_rgba(7,20,38,0.12)]"
               >
                 <div className={`relative h-52 overflow-hidden ${project.imageClass}`}>
+                  <img
+                    src={project.imageSrc}
+                    alt={project.title}
+                    className="absolute inset-0 h-full w-full object-cover opacity-75 mix-blend-screen"
+                  />
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_rgba(255,255,255,0.14),transparent_28%)]" />
                   <div className="absolute inset-0 opacity-30 [background-image:linear-gradient(rgba(255,255,255,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.08)_1px,transparent_1px)] [background-size:24px_24px]" />
                   <div className="absolute left-4 top-4 rounded-full border border-white/15 bg-[#071426]/55 px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-[#d8fbf4] backdrop-blur-sm">
