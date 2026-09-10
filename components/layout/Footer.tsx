@@ -97,6 +97,34 @@ export function Footer() {
           </div>
         </div>
 
+        <section className="mt-12 rounded-[1.5rem] border border-cyan-300/20 bg-[#11152f] px-5 py-7 shadow-[0_18px_40px_rgba(2,6,23,0.28)] sm:px-8 sm:py-8 lg:mt-14 lg:flex lg:items-center lg:justify-between lg:gap-10">
+          <div className="max-w-xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.24em] text-cyan-300">Stay connected</p>
+            <h2 className="mt-2 font-display text-3xl text-white sm:text-4xl">Subscribe to our newsletter</h2>
+            <p className="mt-2 text-sm leading-6 text-slate-300">
+              Get practical insights, fresh ideas, and updates from Online Dream Tech.
+            </p>
+          </div>
+
+          <form className="mt-6 flex w-full max-w-xl flex-col gap-3 sm:flex-row lg:mt-0" action="#" method="post">
+            <label htmlFor="footer-newsletter-email" className="sr-only">Email address</label>
+            <input
+              id="footer-newsletter-email"
+              name="email"
+              type="email"
+              required
+              placeholder="Enter your email address"
+              className="min-w-0 flex-1 rounded-full border border-white/15 bg-white/10 px-5 py-3.5 text-sm text-white outline-none placeholder:text-slate-400 focus:border-cyan-300 focus:ring-2 focus:ring-cyan-300/20"
+            />
+            <button
+              type="submit"
+              className="rounded-full bg-cyan-300 px-7 py-3.5 text-sm font-bold text-[#071426] transition-colors hover:bg-cyan-200 focus:outline-none focus:ring-2 focus:ring-cyan-200 focus:ring-offset-2 focus:ring-offset-[#11152f]"
+            >
+              Join
+            </button>
+          </form>
+        </section>
+
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-sm">© {CURRENT_YEAR} {BRAND.legalName}. All rights reserved.</p>
           <p className="text-slate-500 text-xs">{BRAND.domain}</p>
