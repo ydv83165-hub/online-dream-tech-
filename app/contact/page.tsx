@@ -19,7 +19,7 @@ const CONTACT_ITEMS = [
   {
     label: "Email",
     value: BRAND.email,
-    href: `mailto:${BRAND.email}`,
+    href: BRAND.emailUrl,
   },
   {
     label: "Call",
@@ -33,7 +33,7 @@ const CONTACT_INFO = [
     title: "Email us",
     description: "Drop us a line, we reply within 24 hours.",
     detail: BRAND.email,
-    href: `mailto:${BRAND.email}`,
+    href: BRAND.emailUrl,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
         <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z" />
@@ -188,7 +188,7 @@ export default function ContactPage() {
                 <Button href={`https://wa.me/${BRAND.whatsapp}`} variant="whatsapp" size="lg" className="w-full justify-center">
                   Chat on WhatsApp
                 </Button>
-                <Button href={`mailto:${BRAND.email}`} variant="secondary" size="lg" className="w-full justify-center bg-white/10 text-white border-white/15 hover:bg-white/15">
+                <Button href={BRAND.emailUrl} variant="secondary" size="lg" className="w-full justify-center bg-white/10 text-white border-white/15 hover:bg-white/15">
                   Email us
                 </Button>
               </div>

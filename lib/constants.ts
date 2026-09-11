@@ -7,8 +7,8 @@ export const BRAND = {
   legalName: "Online Dream Tech",
   whatsapp: "91 9936860125",
   whatsappDisplay: "+91 9936860125",
- 
   email: "helloankit125@gmail.com",
+  emailUrl: "https://mail.google.com/mail/?view=cm&fs=1&to=helloankit125%40gmail.com&su=Website%20Inquiry",
 } as const;
 
 export const SOCIAL = {
