@@ -32,8 +32,8 @@ const CONTACT_INFO = [
   {
     title: "Email us",
     description: "Drop us a line, we reply within 24 hours.",
-    detail: "onlinedreamtech@gmail.com",
-    href: "mailto:onlinedreamtech@gmail.com",
+    detail: BRAND.email,
+    href: `mailto:${BRAND.email}`,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-5 w-5">
         <path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z" />
