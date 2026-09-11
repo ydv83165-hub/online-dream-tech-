@@ -8,7 +8,7 @@ export const BRAND = {
   whatsapp: "91 9936860125",
   whatsappDisplay: "+91 9936860125",
  
-  email: "hello@onlinedreamtech.com",
+  email: "helloankit125@gmail.com",
 } as const;
 
 export const SOCIAL = {
