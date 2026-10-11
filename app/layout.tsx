@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, DM_Sans, Noto_Sans_Devanagari } from "next/font/google";
 import { Header } from "@/components/layout/Header";
+import { TopBar } from "@/components/layout/TopBar";
 import { Footer } from "@/components/layout/Footer";
 import { WhatsAppFab } from "@/components/layout/WhatsAppFab";
 import { BRAND } from "@/lib/constants";
@@ -62,8 +63,9 @@ export default function RootLayout({
         className="min-h-full flex flex-col antialiased"
         suppressHydrationWarning
       >
+        <TopBar />
         <Header />
-        <main className="flex-1 pt-14 sm:pt-16 lg:pt-20 pb-20 sm:pb-0">{children}</main>
+        <main className="site-main flex-1 pb-20 sm:pb-0">{children}</main>
         <Footer />
         <WhatsAppFab />
       </body>

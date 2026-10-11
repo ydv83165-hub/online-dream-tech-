@@ -151,6 +151,22 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.site-main {
+  padding-top: calc(98px + env(safe-area-inset-top, 0px));
+}
+
+@media (min-width: 640px) {
+  .site-main {
+    padding-top: calc(106px + env(safe-area-inset-top, 0px));
+  }
+}
+
+@media (min-width: 1024px) {
+  .site-main {
+    padding-top: calc(127px + env(safe-area-inset-top, 0px));
+  }
+}
+
 img,
 svg,
 video,
