@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="68" y1="35" x2="1127" y2="675" gradientUnits="userSpaceOnUse"><stop stop-color="#F8F3FF"/><stop offset="1" stop-color="#E7DEFF"/></linearGradient>
+    <linearGradient id="violet" x1="600" y1="120" x2="1020" y2="590" gradientUnits="userSpaceOnUse"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#5B21B6"/></linearGradient>
+    <filter id="shadow" x="150" y="100" width="940" height="540" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#4C1D95" flood-opacity=".16"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v700H0z"/><circle cx="1070" cy="105" r="190" fill="#fff" fill-opacity=".36"/><circle cx="84" cy="660" r="220" fill="#C4B5FD" fill-opacity=".35"/>
+  <text x="92" y="115" fill="#6D28D9" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4">BRAND STUDIO / 01</text>
+  <text x="92" y="205" fill="#261448" font-family="Georgia,serif" font-size="58" font-weight="700">A brand with</text><text x="92" y="272" fill="#6D28D9" font-family="Georgia,serif" font-size="58" font-weight="700">a point of view.</text>
+  <text x="96" y="320" fill="#71627F" font-family="Arial,sans-serif" font-size="20">A distinct identity, beautifully brought online.</text>
+  <g filter="url(#shadow)"><rect x="594" y="90" width="500" height="514" rx="30" fill="#fff"/>
+    <rect x="620" y="116" width="448" height="260" rx="20" fill="url(#violet)"/><circle cx="844" cy="245" r="92" fill="#F9F4FF"/>
+    <path d="M844 166 862 225 924 226 874 263 893 323 844 286 794 323 813 263 763 226 825 225 844 166Z" fill="#8B5CF6"/>
+    <text x="647" y="414" fill="#2E1A48" font-family="Georgia,serif" font-size="32" font-weight="700">NOVA / FORM</text><text x="647" y="448" fill="#897D96" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">IDENTITY SYSTEM</text>
+    <rect x="647" y="477" width="86" height="49" rx="12" fill="#5B21B6"/><rect x="746" y="477" width="86" height="49" rx="12" fill="#A78BFA"/><rect x="845" y="477" width="86" height="49" rx="12" fill="#E9D5FF"/><rect x="944" y="477" width="86" height="49" rx="12" fill="#F4EDE5"/>
+    <path d="M647 553h383" stroke="#EAE5EF" stroke-width="2"/><text x="647" y="579" fill="#766A82" font-family="Arial,sans-serif" font-size="15">LOGO  •  COLOR  •  DIGITAL EXPERIENCE</text>
+  </g>
+</svg>

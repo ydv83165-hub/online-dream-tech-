@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" fill="none">
+  <defs>
+    <linearGradient id="background" x1="122" y1="82" x2="1451" y2="1002" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#F5F7FF"/>
+      <stop offset="1" stop-color="#F0EEFF"/>
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="806" y1="130" x2="1458" y2="886" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DBEAFE"/>
+      <stop offset=".55" stop-color="#E0E7FF"/>
+      <stop offset="1" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="840" y1="183" x2="1399" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="1068" y1="513" x2="1350" y2="795" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="pants" x1="926" y1="690" x2="1334" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#334155"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="laptop" x1="1076" y1="500" x2="1348" y2="744" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#334155"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1536" height="1024" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="13" stdDeviation="16" flood-color="#4F46E5" flood-opacity=".14"/>
+    </filter>
+  </defs>
+
+  <path fill="url(#background)" d="M0 0h1536v1024H0z"/>
+  <ellipse cx="1218" cy="512" rx="420" ry="407" fill="url(#blueGlow)"/>
+  <circle cx="1468" cy="162" r="156" fill="#C4B5FD" fill-opacity=".28"/>
+  <circle cx="825" cy="866" r="190" fill="#BFDBFE" fill-opacity=".26"/>
+  <path d="M0 915c215-97 358-74 551-8v117H0V915Z" fill="#E0E7FF" fill-opacity=".62"/>
+  <path d="M1160 874c157-95 260-104 376-57v207h-376V874Z" fill="#DDD6FE" fill-opacity=".48"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="93" y="136" width="160" height="52" rx="26" fill="#EEF2FF"/>
+    <circle cx="122" cy="162" r="8" fill="#6366F1"/>
+    <text x="143" y="169" fill="#4338CA" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="2">MARKETING</text>
+  </g>
+
+  <text x="92" y="302" fill="#111B3A" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="700" letter-spacing="-2.8">
+    <tspan x="92" dy="0">Digital Marketing</tspan>
+    <tspan x="92" dy="82">That Drives</tspan>
+    <tspan x="92" dy="82">Results</tspan>
+  </text>
+  <rect x="96" y="532" width="92" height="7" rx="3.5" fill="#6366F1"/>
+  <text x="94" y="593" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="600">
+    <tspan x="94" dy="0">More Traffic</tspan>
+    <tspan x="94" dy="43">More Leads</tspan>
+    <tspan x="94" dy="43">More Sales</tspan>
+  </text>
+  <circle cx="267" cy="584" r="5" fill="#818CF8"/>
+  <circle cx="267" cy="627" r="5" fill="#818CF8"/>
+  <circle cx="267" cy="670" r="5" fill="#818CF8"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="93" y="811" width="414" height="92" rx="24" fill="#fff"/>
+    <rect x="115" y="833" width="50" height="50" rx="15" fill="url(#purple)"/>
+    <path d="M127 861h10l6-14 7 20 6-12h7" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="185" y="853" fill="#142044" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Online Dream Tech</text>
+    <text x="185" y="879" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" letter-spacing="1.1">CREATIVE DIGITAL GROWTH</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="775" y="149" width="204" height="116" rx="22" fill="#fff"/>
+    <rect x="797" y="172" width="45" height="45" rx="14" fill="#E0E7FF"/>
+    <path d="M808 202v-11M820 202v-21M832 202v-15" stroke="#4F46E5" stroke-width="6" stroke-linecap="round"/>
+    <text x="855" y="190" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">SEO</text>
+    <text x="855" y="216" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="13">Search growth</text>
+    <path d="m800 240 24-8 18 4 23-12 22 5 25-16" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m906 213 7-1-1 7" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="1265" y="197" width="188" height="111" rx="22" fill="#fff"/>
+    <circle cx="1306" cy="241" r="22" fill="#EDE9FE"/>
+    <path d="M1295 242h22M1306 231v22" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+    <text x="1340" y="239" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">CAMPAIGN</text>
+    <text x="1340" y="263" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="12">Ready to grow</text>
+    <rect x="1290" y="281" width="136" height="7" rx="3.5" fill="#EDE9FE"/>
+    <rect x="1290" y="281" width="96" height="7" rx="3.5" fill="#8B5CF6"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="801" y="337" width="196" height="115" rx="22" fill="#fff"/>
+    <rect x="823" y="359" width="48" height="48" rx="14" fill="#DBEAFE"/>
+    <path d="M834 374h26v19h-26z" stroke="#2563EB" stroke-width="3" stroke-linejoin="round"/>
+    <path d="m835 375 12 10 12-10" stroke="#2563EB" stroke-width="3" stroke-linejoin="round"/>
+    <text x="884" y="379" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">EMAIL</text>
+    <text x="884" y="402" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="12">Connect better</text>
+    <rect x="824" y="424" width="147" height="7" rx="3.5" fill="#DBEAFE"/>
+    <rect x="824" y="424" width="105" height="7" rx="3.5" fill="#3B82F6"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="1351" y="405" width="111" height="111" rx="25" fill="#fff"/>
+    <circle cx="1406" cy="460" r="31" stroke="#C4B5FD" stroke-width="7"/>
+    <circle cx="1406" cy="460" r="17" stroke="#8B5CF6" stroke-width="6"/>
+    <circle cx="1406" cy="460" r="5" fill="#4F46E5"/>
+    <path d="m1408 457 26-27" stroke="#4F46E5" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1433 430h-10M1433 430v10" stroke="#4F46E5" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="872" y="489" width="172" height="99" rx="22" fill="#fff"/>
+    <rect x="891" y="508" width="42" height="42" rx="13" fill="#FCE7F3"/>
+    <path d="M902 537v-17h20v17M906 526h12M906 531h8" stroke="#DB2777" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="944" y="526" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">SOCIAL</text>
+    <text x="944" y="548" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="11">Build community</text>
+    <path d="m895 570 18-7 16 3 16-10 18 4 20-12" stroke="#EC4899" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#shadow)" opacity=".16">
+    <ellipse cx="1196" cy="889" rx="259" ry="35" fill="#172554"/>
+  </g>
+
+  <g>
+    <path d="M1034 781c-81 52-113 104-65 132 60 36 178 4 239-31 45-26 79-59 53-86-31-33-142-43-227-15Z" fill="url(#pants)"/>
+    <path d="M1054 819c-88 8-168 31-166 72 1 34 82 55 172 30 58-16 124-49 112-78-10-23-63-31-118-24Z" fill="#243451"/>
+    <path d="M1005 869c-39-4-89 3-99 21-8 16 18 35 65 39 54 4 112-14 114-33 2-17-35-24-80-27Z" fill="#F5C8A5"/>
+    <path d="M1217 871c-12 24 14 50 65 51 52 1 107-22 102-42-4-16-50-27-93-26-33 0-62 5-74 17Z" fill="#F5C8A5"/>
+
+    <path d="M1099 477c-32 11-59 34-75 70-20 46-27 132-6 177 19 42 221 49 268 4 27-26 12-116 1-163-11-48-34-78-72-87-42-10-78-11-116-1Z" fill="url(#shirt)"/>
+    <path d="M1110 481c9 36 32 56 67 56 32 0 57-23 65-57l-31-16h-69l-32 17Z" fill="#F2B994"/>
+    <path d="M1132 472c13 31 29 43 48 43 21 0 40-15 52-44l-17-24h-68l-15 25Z" fill="#E9A982"/>
+
+    <path d="M1086 520c-44 6-86 35-111 76-21 35-27 72-13 89 12 15 37 11 54-4 19-17 33-57 52-76l42-35-24-50Z" fill="#F5C8A5"/>
+    <path d="M1302 522c38 15 62 47 75 92 10 34 8 59-9 69-19 11-35-7-43-29l-24-61-36-32 37-39Z" fill="#F5C8A5"/>
+
+    <path d="M1056 655c20-25 52-46 84-54 30-8 87-8 115 4l-8 128h-190l-1-78Z" fill="url(#laptop)"/>
+    <path d="M1050 731h216l31 21c4 3 1 10-5 10h-243c-7 0-9-7-4-11l5-20Z" fill="#64748B"/>
+    <path d="M1071 669h174v51h-174z" fill="#E0E7FF"/>
+    <rect x="1081" y="680" width="72" height="7" rx="3.5" fill="#A5B4FC"/>
+    <rect x="1081" y="695" width="112" height="6" rx="3" fill="#C7D2FE"/>
+    <rect x="1081" y="708" width="88" height="6" rx="3" fill="#C7D2FE"/>
+    <circle cx="1217" cy="692" r="15" fill="#C4B5FD"/>
+    <path d="m1209 692 6 6 11-13" stroke="#5B21B6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M1095 416c-7-66 22-117 77-129 59-12 114 23 118 84 3 42-15 89-48 114-26 20-77 25-109 1-24-17-35-42-38-70Z" fill="#F5C8A5"/>
+    <path d="M1090 414c-25-28-29-79-6-115 18-30 50-47 84-44 16-31 68-36 99-8 30 27 42 68 35 106-3 16-10 32-20 45-4-36-22-58-50-65-29-7-55-2-75 13-15 11-31 35-35 63-13 7-25 8-32 5Z" fill="#243047"/>
+    <path d="M1105 357c17-48 73-74 126-52 24 10 41 29 49 53-30-18-54-21-80-12-21 8-41 26-54 50-18-7-31-19-41-39Z" fill="#334155"/>
+    <path d="M1113 387c13-18 39-23 58-12 17 10 23 31 13 47-11 17-35 21-53 10-18-11-27-29-18-45Z" stroke="#1E293B" stroke-width="10"/>
+    <path d="M1202 383c14-18 40-21 57-9 16 12 20 33 8 49-12 16-36 18-53 6-17-12-23-31-12-46Z" stroke="#1E293B" stroke-width="10"/>
+    <path d="m1172 396 24-1" stroke="#1E293B" stroke-width="9" stroke-linecap="round"/>
+    <path d="M1138 397h15M1220 397h15" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1170 426c13 10 28 10 41-1" stroke="#A94F48" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1149 451c19 18 51 22 76 5" stroke="#D88C71" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1097 394c-14-9-20 3-14 19 5 13 13 19 23 18M1270 391c13-12 21 1 16 18-4 15-12 21-23 21" fill="#F5C8A5"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <circle cx="1014" cy="330" r="39" fill="#fff"/>
+    <rect x="992" y="308" width="44" height="44" rx="14" fill="#FBCFE8"/>
+    <path d="M1002 330c0-8 7-14 15-14s15 6 15 14-7 14-15 14h-7l-8 5 2-9c-1-3-2-6-2-10Z" fill="#E11D48"/>
+    <circle cx="1010" cy="330" r="2" fill="#fff"/>
+    <circle cx="1017" cy="330" r="2" fill="#fff"/>
+    <circle cx="1024" cy="330" r="2" fill="#fff"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <circle cx="1330" cy="330" r="35" fill="#fff"/>
+    <rect x="1309" y="309" width="42" height="42" rx="13" fill="#EDE9FE"/>
+    <path d="M1330 317c-7 0-12 5-12 12 0 9 12 17 12 17s12-8 12-17c0-7-5-12-12-12Z" fill="#7C3AED"/>
+    <circle cx="1330" cy="329" r="4" fill="#fff"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <circle cx="1394" cy="572" r="35" fill="#fff"/>
+    <rect x="1373" y="551" width="42" height="42" rx="13" fill="#DBEAFE"/>
+    <path d="M1395 560v24M1383 572h24" stroke="#2563EB" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <circle cx="942" cy="667" r="34" fill="#fff"/>
+    <rect x="922" y="647" width="40" height="40" rx="12" fill="#E0E7FF"/>
+    <path d="M932 671h19M932 663h19M932 655h19" stroke="#4F46E5" stroke-width="4" stroke-linecap="round"/>
+    <path d="m948 650 5 5-5 5" stroke="#4F46E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <circle cx="1276" cy="157" r="33" fill="#fff"/>
+    <circle cx="1276" cy="157" r="17" stroke="#2563EB" stroke-width="6"/>
+    <path d="m1289 170 12 12" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1268 157h16M1276 149v16" stroke="#818CF8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <circle cx="1159" cy="119" r="30" fill="#fff"/>
+    <path d="M1144 119h30M1159 104v30" stroke="#6366F1" stroke-width="5" stroke-linecap="round"/>
+    <path d="m1161 116 16-16M1177 100h-9M1177 100v9" stroke="#10B981" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g opacity=".75">
+    <path d="M845 299c17-38 42-57 74-60" stroke="#818CF8" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 12"/>
+    <path d="m907 233 13 5-10 10" stroke="#818CF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M1353 654c25 15 39 39 42 71" stroke="#6366F1" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 12"/>
+    <path d="m1383 716 12 10 8-13" stroke="#6366F1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

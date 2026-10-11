@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="66" y1="34" x2="1466" y2="991" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9FC"/>
+      <stop offset=".55" stop-color="#F4F0FF"/>
+      <stop offset="1" stop-color="#E6F1FF"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="927" y1="173" x2="1324" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF"/>
+      <stop offset="1" stop-color="#FDF2F8"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="1019" y1="292" x2="1195" y2="475" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185"/>
+      <stop offset=".55" stop-color="#E879F9"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1536" height="1024" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="card" x="-30%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#5B21B6" flood-opacity=".15"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1536v1024H0z"/>
+  <circle cx="1235" cy="492" r="389" fill="#DDD6FE" fill-opacity=".42"/>
+  <circle cx="1441" cy="128" r="174" fill="#FBCFE8" fill-opacity=".36"/>
+  <circle cx="739" cy="875" r="190" fill="#DBEAFE" fill-opacity=".4"/>
+
+  <g filter="url(#card)">
+    <rect x="91" y="137" width="170" height="54" rx="27" fill="#FCE7F3"/>
+    <circle cx="121" cy="164" r="8" fill="#DB2777"/>
+    <text x="143" y="171" fill="#9D174D" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="2">SOCIAL MEDIA</text>
+  </g>
+  <text x="91" y="315" fill="#172044" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-3">
+    <tspan x="91" dy="0">Launch a Brand</tspan>
+    <tspan x="91" dy="85">People Want to</tspan>
+    <tspan x="91" dy="85">Follow</tspan>
+  </text>
+  <rect x="96" y="552" width="94" height="7" rx="3.5" fill="#DB2777"/>
+  <text x="92" y="614" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600">
+    <tspan x="92" dy="0">Build community</tspan>
+    <tspan x="92" dy="42">Create connection</tspan>
+    <tspan x="92" dy="42">Grow together</tspan>
+  </text>
+  <circle cx="286" cy="605" r="5" fill="#EC4899"/>
+  <circle cx="286" cy="647" r="5" fill="#EC4899"/>
+  <circle cx="286" cy="689" r="5" fill="#EC4899"/>
+  <g filter="url(#card)">
+    <rect x="92" y="814" width="420" height="92" rx="24" fill="#fff"/>
+    <rect x="115" y="835" width="50" height="50" rx="15" fill="#4F46E5"/>
+    <path d="M127 862h8l5-14 7 20 6-12h8" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="184" y="855" fill="#172044" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Online Dream Tech</text>
+    <text x="184" y="881" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" letter-spacing="1.1">CREATIVE DIGITAL GROWTH</text>
+  </g>
+
+  <g filter="url(#shadow)" opacity=".17">
+    <ellipse cx="1129" cy="890" rx="248" ry="33" fill="#312E81"/>
+  </g>
+  <g filter="url(#card)">
+    <rect x="910" y="162" width="424" height="716" rx="58" fill="#1E1B4B" fill-opacity=".22"/>
+    <rect x="890" y="144" width="424" height="716" rx="58" fill="url(#phone)"/>
+    <rect x="1012" y="162" width="180" height="20" rx="10" fill="#E9D5FF"/>
+    <text x="933" y="232" fill="#1F2937" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700">Your next favorite brand</text>
+    <text x="933" y="261" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15">Stories worth sharing</text>
+    <rect x="929" y="285" width="346" height="286" rx="28" fill="url(#pink)"/>
+    <circle cx="1102" cy="410" r="97" fill="#fff" fill-opacity=".2"/>
+    <circle cx="1102" cy="410" r="65" stroke="#fff" stroke-opacity=".83" stroke-width="3"/>
+    <path d="M1070 410c0-18 14-32 32-32s32 14 32 32-14 32-32 32h-15l-18 11 5-20c-2-7-4-14-4-23Z" fill="#fff"/>
+    <circle cx="1089" cy="410" r="4" fill="#C026D3"/>
+    <circle cx="1102" cy="410" r="4" fill="#C026D3"/>
+    <circle cx="1115" cy="410" r="4" fill="#C026D3"/>
+    <text x="957" y="531" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Say hello to something new</text>
+    <rect x="930" y="594" width="344" height="100" rx="20" fill="#fff"/>
+    <circle cx="977" cy="644" r="24" fill="#FCE7F3"/>
+    <circle cx="977" cy="644" r="11" stroke="#DB2777" stroke-width="4"/>
+    <circle cx="1004" cy="644" r="24" fill="#EDE9FE"/>
+    <path d="M996 644h16M1004 636v16" stroke="#7C3AED" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="1031" cy="644" r="24" fill="#DBEAFE"/>
+    <path d="M1022 651v-14l9-6 9 6v14h-18Z" stroke="#2563EB" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="933" y="716" width="346" height="74" rx="18" fill="#F8FAFC"/>
+    <circle cx="970" cy="753" r="18" fill="#FBCFE8"/>
+    <rect x="1003" y="740" width="160" height="9" rx="4.5" fill="#C4B5FD"/>
+    <rect x="1003" y="759" width="216" height="8" rx="4" fill="#E2E8F0"/>
+  </g>
+
+  <g filter="url(#card)">
+    <circle cx="825" cy="245" r="56" fill="#fff"/>
+    <rect x="793" y="213" width="64" height="64" rx="20" fill="#FCE7F3"/>
+    <rect x="809" y="229" width="32" height="32" rx="10" stroke="#DB2777" stroke-width="4"/>
+    <circle cx="825" cy="245" r="7" stroke="#DB2777" stroke-width="4"/>
+    <circle cx="836" cy="234" r="2.5" fill="#DB2777"/>
+  </g>
+  <g filter="url(#card)">
+    <circle cx="1389" cy="312" r="51" fill="#fff"/>
+    <path d="M1399 313v-6c0-7-5-12-12-12-7 0-12 5-12 12v6c-5 2-8 6-8 12v20h40v-20c0-6-3-10-8-12Z" fill="#2563EB"/>
+    <path d="M1380 349c3 9 16 9 19 0" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#card)">
+    <circle cx="843" cy="526" r="44" fill="#fff"/>
+    <path d="M817 525h52v29h-52z" fill="#EF4444"/>
+    <path d="m838 532 15 8-15 8v-16Z" fill="#fff"/>
+  </g>
+  <g filter="url(#card)">
+    <circle cx="1370" cy="604" r="44" fill="#fff"/>
+    <rect x="1347" y="582" width="46" height="44" rx="7" fill="#0A66C2"/>
+    <path d="M1358 601v14M1358 594v.5M1368 615v-8c0-4 7-5 7 0v8M1368 601v14" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#card)">
+    <circle cx="1162" cy="91" r="37" fill="#fff"/>
+    <path d="m1147 99 10-20 10 20 10-20 10 20" stroke="#111827" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

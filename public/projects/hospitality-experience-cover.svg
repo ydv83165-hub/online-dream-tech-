@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="580" y1="20" x2="580" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE8C7"/><stop offset=".6" stop-color="#F7B78E"/><stop offset="1" stop-color="#C36B58"/></linearGradient>
+    <linearGradient id="building" x1="620" y1="238" x2="1040" y2="580" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF8EB"/><stop offset="1" stop-color="#F4D9C0"/></linearGradient>
+    <filter id="shadow" x="528" y="156" width="595" height="478" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#713F32" flood-opacity=".2"/></filter>
+  </defs>
+  <path fill="#FBF2E8" d="M0 0h1200v700H0z"/><path fill="url(#sky)" d="M430 0h770v590H430z"/><circle cx="1033" cy="142" r="68" fill="#FFF1C7"/>
+  <path d="M430 457c122-77 211-78 320-8 103 66 187 62 450-91v232H430V457Z" fill="#A8B99B"/><path d="M430 508c170-70 264-31 378 36 106 63 235 58 392-1v76H430v-111Z" fill="#6D8D79"/>
+  <text x="76" y="120" fill="#A64F39" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4">STAY A LITTLE LONGER</text><text x="76" y="224" fill="#44291F" font-family="Georgia,serif" font-size="59" font-weight="700">A place to</text><text x="76" y="292" fill="#A64F39" font-family="Georgia,serif" font-size="59" font-weight="700">slow down.</text><text x="80" y="341" fill="#74594C" font-family="Arial,sans-serif" font-size="18">Thoughtful stays, made memorable.</text>
+  <g filter="url(#shadow)"><rect x="592" y="197" width="454" height="360" rx="20" fill="url(#building)"/><path d="M572 257 818 155l244 102H572Z" fill="#805747"/><path d="M622 254h394" stroke="#D0AC8E" stroke-width="5"/>
+    <rect x="649" y="284" width="74" height="91" rx="5" fill="#9AC2BF"/><rect x="775" y="284" width="87" height="91" rx="5" fill="#8FB5B3"/><rect x="922" y="284" width="68" height="91" rx="5" fill="#9AC2BF"/><path d="M686 284v91m132-91v91m138-91v91" stroke="#FFF5E9" stroke-width="6"/>
+    <rect x="774" y="412" width="88" height="145" rx="44" fill="#97624B"/><circle cx="844" cy="486" r="4" fill="#F4D089"/>
+    <rect x="622" y="388" width="394" height="12" rx="6" fill="#D9BDA1"/><path d="M635 399v130m368-130v130" stroke="#A37C5F" stroke-width="8"/><path d="M600 528h439" stroke="#6D5546" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <rect x="85" y="397" width="282" height="84" rx="15" fill="#fff" fill-opacity=".88"/><text x="110" y="430" fill="#A64F39" font-family="Arial,sans-serif" font-size="15" font-weight="700">YOUR ESCAPE AWAITS</text><text x="110" y="459" fill="#57392D" font-family="Arial,sans-serif" font-size="18">Check dates  →</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="34" y1="18" x2="1154" y2="684" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF4F0"/><stop offset="1" stop-color="#F7D6CF"/></linearGradient>
+    <linearGradient id="editorial" x1="660" y1="125" x2="1067" y2="566" gradientUnits="userSpaceOnUse"><stop stop-color="#DCA89B"/><stop offset="1" stop-color="#A7655D"/></linearGradient>
+    <filter id="shadow" x="573" y="66" width="579" height="582" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#783F3A" flood-opacity=".18"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v700H0z"/><circle cx="103" cy="614" r="204" fill="#fff" fill-opacity=".48"/><circle cx="1087" cy="77" r="164" fill="#fff" fill-opacity=".36"/>
+  <text x="80" y="115" fill="#9F4E4E" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="4">ATELIER / SPRING COLLECTION</text><text x="80" y="226" fill="#492C2B" font-family="Georgia,serif" font-size="68" font-weight="700">Wear your</text><text x="80" y="301" fill="#A65355" font-family="Georgia,serif" font-size="68" font-weight="700">own story.</text><text x="85" y="354" fill="#795957" font-family="Arial,sans-serif" font-size="18">Thoughtful pieces for everyday moments.</text>
+  <rect x="85" y="405" width="177" height="48" rx="24" fill="#A65355"/><text x="119" y="435" fill="#fff" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="1">SHOP THE EDIT</text>
+  <g filter="url(#shadow)"><rect x="622" y="103" width="478" height="500" rx="22" fill="#fff"/><rect x="641" y="122" width="440" height="330" rx="13" fill="url(#editorial)"/>
+    <circle cx="970" cy="198" r="88" fill="#F4CEC2" fill-opacity=".6"/><path d="M786 401c13-69 23-119 36-170 10-39 31-57 67-57 40 0 60 22 70 60l42 166H786Z" fill="#F7EEE8"/><path d="m822 224 51-49 44 7 40 52-27 36 18 131H803l20-125-30-26 29-26Z" fill="#C76A68"/><path d="m873 175-13 61 31 18 27-20-1-52" fill="#E6B6A5"/><path d="m831 232-44 73m176-70 39 77" stroke="#F7EEE8" stroke-width="17" stroke-linecap="round"/><path d="M853 286h99" stroke="#A65355" stroke-opacity=".35" stroke-width="3"/>
+    <text x="651" y="493" fill="#4E3030" font-family="Georgia,serif" font-size="27" font-weight="700">The Soft Structure Edit</text><text x="652" y="521" fill="#927A76" font-family="Arial,sans-serif" font-size="14" letter-spacing="1">NEW SEASON / LIMITED EDITION</text><path d="M652 546h389" stroke="#EEE5E1" stroke-width="2"/><text x="652" y="578" fill="#A65355" font-family="Arial,sans-serif" font-size="14" font-weight="700">DISCOVER THE COLLECTION  →</text>
+  </g>
+</svg>

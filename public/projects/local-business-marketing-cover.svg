@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="43" y1="37" x2="1490" y2="991" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFCF5"/>
+      <stop offset=".55" stop-color="#FFF4E8"/>
+      <stop offset="1" stop-color="#F3EEFF"/>
+    </linearGradient>
+    <linearGradient id="shop" x1="901" y1="400" x2="1322" y2="824" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDBA74"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="awning" x1="920" y1="300" x2="1301" y2="421" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#E11D48"/>
+    </linearGradient>
+    <filter id="card" x="-30%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#9A3412" flood-opacity=".16"/>
+    </filter>
+    <filter id="shadow" x="0" y="0" width="1536" height="1024" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1536v1024H0z"/>
+  <circle cx="1213" cy="486" r="388" fill="#FED7AA" fill-opacity=".45"/>
+  <circle cx="1432" cy="136" r="165" fill="#DDD6FE" fill-opacity=".42"/>
+  <circle cx="753" cy="875" r="175" fill="#FDE68A" fill-opacity=".28"/>
+  <g filter="url(#card)">
+    <rect x="91" y="137" width="190" height="54" rx="27" fill="#FFEDD5"/>
+    <circle cx="121" cy="164" r="8" fill="#EA580C"/>
+    <text x="143" y="171" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="2">LOCAL GROWTH</text>
+  </g>
+  <text x="91" y="315" fill="#312018" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-3">
+    <tspan x="91" dy="0">Make Local</tspan>
+    <tspan x="91" dy="85">Your Biggest</tspan>
+    <tspan x="91" dy="85">Advantage</tspan>
+  </text>
+  <rect x="96" y="552" width="94" height="7" rx="3.5" fill="#EA580C"/>
+  <text x="92" y="614" fill="#57534E" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600">
+    <tspan x="92" dy="0">Be found nearby</tspan>
+    <tspan x="92" dy="42">Build lasting trust</tspan>
+    <tspan x="92" dy="42">Bring customers in</tspan>
+  </text>
+  <g filter="url(#card)">
+    <rect x="92" y="814" width="420" height="92" rx="24" fill="#fff"/>
+    <rect x="115" y="835" width="50" height="50" rx="15" fill="#EA580C"/>
+    <path d="M127 862h8l5-14 7 20 6-12h8" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="184" y="855" fill="#172044" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Online Dream Tech</text>
+    <text x="184" y="881" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" letter-spacing="1.1">CREATIVE DIGITAL GROWTH</text>
+  </g>
+  <g filter="url(#shadow)" opacity=".16">
+    <ellipse cx="1110" cy="858" rx="288" ry="39" fill="#7C2D12"/>
+  </g>
+  <g filter="url(#card)">
+    <path d="M890 354h440v429H890z" fill="#fff"/>
+    <path d="M871 354h478v429H871z" fill="#FFF7ED"/>
+    <path d="m889 338 56-105h362l56 105H889Z" fill="url(#awning)"/>
+    <path d="M889 338h474v67H889z" fill="#fff"/>
+    <path d="M889 338h79v67h-79zM1047 338h79v67h-79zM1205 338h79v67h-79z" fill="#FB7185"/>
+    <path d="M968 338h79v67h-79zM1126 338h79v67h-79zM1284 338h79v67h-79z" fill="#fff"/>
+    <path d="M889 354c0 29 18 51 40 51s39-22 39-51M1047 354c0 29 18 51 40 51s39-22 39-51M1205 354c0 29 18 51 40 51s39-22 39-51" fill="#F43F5E"/>
+    <rect x="947" y="291" width="361" height="47" rx="11" fill="#fff"/>
+    <text x="987" y="322" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">YOUR NEIGHBORHOOD SHOP</text>
+    <rect x="927" y="438" width="357" height="310" rx="12" fill="url(#shop)"/>
+    <rect x="927" y="438" width="357" height="310" rx="12" fill="#fff" fill-opacity=".13"/>
+    <rect x="1076" y="541" width="126" height="207" rx="4" fill="#7C2D12"/>
+    <rect x="1090" y="557" width="42" height="65" rx="3" fill="#DBEAFE"/>
+    <rect x="1145" y="557" width="42" height="65" rx="3" fill="#DBEAFE"/>
+    <path d="M1101 557v65M1156 557v65" stroke="#BFDBFE" stroke-width="4"/>
+    <circle cx="1183" cy="653" r="5" fill="#FDE68A"/>
+    <rect x="951" y="490" width="80" height="81" rx="8" fill="#DCFCE7"/>
+    <path d="M972 557c4-32 22-51 47-58 5 26-1 45-15 59-10 9-21 14-33 15 0-6 0-11 1-16Z" fill="#16A34A"/>
+    <path d="M966 578c11-27 29-46 52-58" stroke="#15803D" stroke-width="5" stroke-linecap="round"/>
+    <rect x="1168" y="478" width="89" height="54" rx="8" fill="#FDE68A"/>
+    <path d="M1184 518c7-19 20-29 37-31 4 17 0 29-11 38-7 6-15 8-25 8 0-6-1-10-1-15Z" fill="#65A30D"/>
+  </g>
+  <g filter="url(#card)">
+    <rect x="832" y="522" width="154" height="172" rx="23" fill="#fff"/>
+    <path d="M875 557h69v51h-69z" fill="#FFEDD5"/>
+    <path d="M909 557v51M875 583h69" stroke="#FDBA74" stroke-width="4"/>
+    <path d="M858 625h101M858 642h81M858 659h89" stroke="#E7E5E4" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="955" cy="557" r="19" fill="#22C55E"/>
+    <path d="m947 557 6 6 11-13" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#card)">
+    <rect x="1260" y="494" width="169" height="177" rx="24" fill="#fff"/>
+    <circle cx="1345" cy="543" r="29" fill="#EDE9FE"/>
+    <path d="M1345 524c-11 0-19 8-19 19 0 14 19 28 19 28s19-14 19-28c0-11-8-19-19-19Z" fill="#7C3AED"/>
+    <circle cx="1345" cy="542" r="6" fill="#fff"/>
+    <rect x="1283" y="585" width="123" height="10" rx="5" fill="#C4B5FD"/>
+    <rect x="1283" y="605" width="97" height="8" rx="4" fill="#E2E8F0"/>
+    <rect x="1283" y="623" width="113" height="8" rx="4" fill="#E2E8F0"/>
+    <path d="m1373 648 8-8 8 8" stroke="#16A34A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#card)">
+    <circle cx="1131" cy="160" r="47" fill="#fff"/>
+    <circle cx="1131" cy="160" r="26" stroke="#EA580C" stroke-width="5"/>
+    <path d="m1133 158 23-23" stroke="#EA580C" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1156 135h-11M1156 135v11" stroke="#EA580C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

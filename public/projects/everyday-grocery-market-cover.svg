@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="22" y1="12" x2="1164" y2="683" gradientUnits="userSpaceOnUse"><stop stop-color="#F2FDE5"/><stop offset="1" stop-color="#C9F2B6"/></linearGradient>
+    <filter id="shadow" x="518" y="71" width="641" height="581" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="19" stdDeviation="18" flood-color="#365314" flood-opacity=".18"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v700H0z"/><circle cx="1077" cy="103" r="180" fill="#fff" fill-opacity=".43"/><circle cx="84" cy="634" r="205" fill="#86EFAC" fill-opacity=".25"/>
+  <text x="78" y="116" fill="#3F7D20" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="4">FRESH PICKS / EVERY DAY</text><text x="78" y="226" fill="#26401F" font-family="Georgia,serif" font-size="62" font-weight="700">Good food.</text><text x="78" y="297" fill="#4D9A2D" font-family="Georgia,serif" font-size="62" font-weight="700">Good mood.</text><text x="83" y="350" fill="#587353" font-family="Arial,sans-serif" font-size="18">Fresh from local growers to your door.</text>
+  <rect x="82" y="399" width="163" height="48" rx="24" fill="#4D9A2D"/><text x="116" y="429" fill="#fff" font-family="Arial,sans-serif" font-size="16" font-weight="700">Shop fresh</text>
+  <g filter="url(#shadow)"><rect x="563" y="105" width="514" height="498" rx="24" fill="#fff"/><text x="593" y="151" fill="#244125" font-family="Arial,sans-serif" font-size="23" font-weight="700">Market basket</text><text x="593" y="177" fill="#8B9D84" font-family="Arial,sans-serif" font-size="13">Fresh favorites for this week</text>
+    <rect x="593" y="199" width="454" height="151" rx="16" fill="#F2FBEA"/><path d="M693 291c-20-23-6-53 17-70 2 23-6 42-17 70Zm24-6c-3-30 15-55 42-62-3 28-19 49-42 62Zm21 4c11-27 36-40 62-32-13 24-35 36-62 32Z" fill="#37A345"/><path d="M704 311c11-32 27-54 49-69m-49 70 42-31m-18 24 42-22" stroke="#2E7D32" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="841" cy="274" r="38" fill="#FBBF24"/><path d="M841 238c13 3 26 14 33 28-13 15-30 23-51 22-14-14-18-30-15-47 12-6 22-7 33-3Z" fill="#FDE68A"/><path d="M842 239c-4 12-3 29 2 48" stroke="#fff" stroke-width="3"/>
+    <circle cx="952" cy="275" r="40" fill="#EF4444"/><path d="M944 237c4-13 20-15 27-5-11 2-17 7-21 15" fill="#15803D"/>
+    <text x="613" y="328" fill="#658052" font-family="Arial,sans-serif" font-size="12" font-weight="700">ORGANIC GREENS · SUNSHINE CITRUS · RED APPLES</text>
+    <text x="594" y="386" fill="#244125" font-family="Arial,sans-serif" font-size="17" font-weight="700">Shop by category</text>
+    <rect x="593" y="402" width="105" height="125" rx="13" fill="#FFF7E7"/><circle cx="645" cy="445" r="24" fill="#FDE68A"/><path d="M635 453c2-11 17-18 22-5 3 9-10 19-10 19s-14-6-12-14Z" fill="#F97316"/><text x="615" y="495" fill="#52634B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Fruit &amp; veg</text>
+    <rect x="712" y="402" width="105" height="125" rx="13" fill="#EEF9F0"/><rect x="741" y="425" width="46" height="42" rx="7" fill="#fff" stroke="#86A98B" stroke-width="3"/><path d="M749 425c0-17 30-17 30 0" stroke="#86A98B" stroke-width="4"/><text x="735" y="495" fill="#52634B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Dairy</text>
+    <rect x="831" y="402" width="105" height="125" rx="13" fill="#FFF1E8"/><path d="M873 423h22l8 48h-38l8-48Z" fill="#D97706"/><path d="M877 415h14v9h-14z" fill="#92400E"/><text x="850" y="495" fill="#52634B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Pantry</text>
+    <rect x="950" y="402" width="97" height="125" rx="13" fill="#F2EEFF"/><path d="M972 454c0-17 25-17 25 0v17h-25v-17Z" fill="#A78BFA"/><path d="M977 440c0-11 15-11 15 0" stroke="#7C3AED" stroke-width="3"/><text x="967" y="495" fill="#52634B" font-family="Arial,sans-serif" font-size="13" font-weight="700">Bakery</text>
+    <path d="M593 548h454" stroke="#E6EFDF" stroke-width="2"/><text x="593" y="576" fill="#4D9A2D" font-family="Arial,sans-serif" font-size="14" font-weight="700">DELIVERED FRESH, WITH CARE  →</text>
+  </g>
+</svg>

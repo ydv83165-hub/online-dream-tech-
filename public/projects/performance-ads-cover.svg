@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="55" y1="27" x2="1486" y2="997" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFF"/>
+      <stop offset=".52" stop-color="#EFF2FF"/>
+      <stop offset="1" stop-color="#E8F2FF"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="886" y1="189" x2="1375" y2="792" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#F1F5FF"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="946" y1="530" x2="1337" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="card" x="-30%" y="-30%" width="160%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="15" stdDeviation="18" flood-color="#1E3A8A" flood-opacity=".15"/>
+    </filter>
+    <filter id="shadow" x="0" y="0" width="1536" height="1024" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1536v1024H0z"/>
+  <circle cx="1207" cy="475" r="393" fill="#C7D2FE" fill-opacity=".39"/>
+  <circle cx="1431" cy="146" r="167" fill="#BAE6FD" fill-opacity=".43"/>
+  <circle cx="760" cy="894" r="168" fill="#DBEAFE" fill-opacity=".45"/>
+  <g filter="url(#card)">
+    <rect x="91" y="137" width="190" height="54" rx="27" fill="#E0E7FF"/>
+    <circle cx="121" cy="164" r="8" fill="#4F46E5"/>
+    <text x="143" y="171" fill="#3730A3" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="2">PAID CAMPAIGNS</text>
+  </g>
+  <text x="91" y="315" fill="#142044" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700" letter-spacing="-3">
+    <tspan x="91" dy="0">Performance Ads</tspan>
+    <tspan x="91" dy="85">Built to Convert</tspan>
+  </text>
+  <rect x="96" y="390" width="94" height="7" rx="3.5" fill="#4F46E5"/>
+  <text x="92" y="460" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600">
+    <tspan x="92" dy="0">Reach the right people</tspan>
+    <tspan x="92" dy="42">Turn clicks into customers</tspan>
+    <tspan x="92" dy="42">Measure every win</tspan>
+  </text>
+  <g filter="url(#card)">
+    <rect x="92" y="814" width="420" height="92" rx="24" fill="#fff"/>
+    <rect x="115" y="835" width="50" height="50" rx="15" fill="#4F46E5"/>
+    <path d="M127 862h8l5-14 7 20 6-12h8" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="184" y="855" fill="#172044" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700">Online Dream Tech</text>
+    <text x="184" y="881" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="500" letter-spacing="1.1">CREATIVE DIGITAL GROWTH</text>
+  </g>
+  <g filter="url(#shadow)" opacity=".17">
+    <ellipse cx="1122" cy="872" rx="277" ry="36" fill="#1E3A8A"/>
+  </g>
+  <g filter="url(#card)">
+    <rect x="854" y="173" width="563" height="617" rx="28" fill="#172554" fill-opacity=".19"/>
+    <rect x="835" y="155" width="563" height="617" rx="28" fill="url(#screen)"/>
+    <rect x="835" y="155" width="563" height="64" rx="28" fill="#fff"/>
+    <path d="M835 190h563v29H835z" fill="#fff"/>
+    <circle cx="871" cy="187" r="7" fill="#FB7185"/>
+    <circle cx="894" cy="187" r="7" fill="#FBBF24"/>
+    <circle cx="917" cy="187" r="7" fill="#34D399"/>
+    <rect x="953" y="179" width="203" height="16" rx="8" fill="#E2E8F0"/>
+    <rect x="866" y="248" width="236" height="18" rx="9" fill="#1E293B"/>
+    <rect x="866" y="281" width="497" height="181" rx="18" fill="#fff"/>
+    <path d="M899 425h55v-37h61v-21h62v-48h64v-22h61" stroke="url(#chart)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m1288 297 15-1-1 15" stroke="#06B6D4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M899 434h430" stroke="#E2E8F0" stroke-width="3"/>
+    <rect x="866" y="485" width="153" height="110" rx="16" fill="#fff"/>
+    <rect x="1038" y="485" width="153" height="110" rx="16" fill="#fff"/>
+    <rect x="1210" y="485" width="153" height="110" rx="16" fill="#fff"/>
+    <text x="888" y="522" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15">CLICKS</text>
+    <text x="888" y="566" fill="#172554" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">24.8k</text>
+    <path d="m985 551 12-11 9 5 14-19" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1060" y="522" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15">LEADS</text>
+    <text x="1060" y="566" fill="#172554" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">1,248</text>
+    <path d="m1158 551 12-11 9 5 14-19" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1232" y="522" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="15">ROAS</text>
+    <text x="1232" y="566" fill="#172554" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">4.6x</text>
+    <path d="m1324 551 12-11 9 5 14-19" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="866" y="617" width="497" height="122" rx="16" fill="#fff"/>
+    <rect x="891" y="642" width="138" height="13" rx="6.5" fill="#C7D2FE"/>
+    <rect x="891" y="668" width="417" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="891" y="691" width="332" height="10" rx="5" fill="#E2E8F0"/>
+    <rect x="1260" y="635" width="77" height="30" rx="15" fill="#DCFCE7"/>
+    <text x="1275" y="655" fill="#15803D" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">+32.8%</text>
+  </g>
+  <g filter="url(#card)">
+    <circle cx="784" cy="306" r="54" fill="#fff"/>
+    <path d="M763 307h42M784 286v42" stroke="#4F46E5" stroke-width="7" stroke-linecap="round"/>
+    <path d="m787 303 22-22M809 281h-12M809 281v12" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g filter="url(#card)">
+    <circle cx="1451" cy="386" r="49" fill="#fff"/>
+    <circle cx="1451" cy="386" r="28" stroke="#C7D2FE" stroke-width="6"/>
+    <circle cx="1451" cy="386" r="14" stroke="#818CF8" stroke-width="5"/>
+    <circle cx="1451" cy="386" r="4" fill="#4F46E5"/>
+    <path d="m1453 384 22-22" stroke="#4F46E5" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#card)">
+    <rect x="1430" y="588" width="72" height="72" rx="20" fill="#fff"/>
+    <path d="M1450 630v-25M1465 630v-42M1480 630v-33" stroke="#6366F1" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>
