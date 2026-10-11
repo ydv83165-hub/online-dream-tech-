@@ -73,6 +73,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/projects" className="text-slate-300 hover:text-white text-sm transition-colors inline-block py-1">
+                  Projects
+                </Link>
+              </li>
+              <li>
                 <Link href="/services" className="text-slate-300 hover:text-white text-sm transition-colors inline-block py-1">
                   View All Services
                 </Link>
