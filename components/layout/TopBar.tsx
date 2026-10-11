@@ -19,7 +19,7 @@ export function TopBar() {
           </a>
         </div>
 
-        <nav aria-label="Social media" className="hidden shrink-0 items-center gap-2 sm:flex">
+        <nav aria-label="Social media" className="hidden shrink-0 items-center gap-2 lg:flex">
           <SocialIconLink href="https://www.facebook.com/" label="Facebook">
             <FacebookIcon />
           </SocialIconLink>

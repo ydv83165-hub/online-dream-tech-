@@ -7,18 +7,18 @@ export function Footer() {
 
   return (
     <footer className="bg-slate-950 border-t border-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
-          <div className="space-y-6">
+      <div className="mx-auto max-w-7xl px-4 pt-8 pb-28 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-2 sm:gap-10 lg:grid-cols-4">
+          <div className="col-span-2 space-y-5 sm:col-span-1 sm:space-y-6">
             <div className="space-y-4">
-              <div className="flex flex-col items-start gap-3">
-                <img 
-                  src="/Footer%20onlinedreamtech.png" 
-                  alt="OnlineDreamTech Logo" 
-                  className="h-12 w-auto" 
+              <div className="flex items-center gap-3">
+                <img
+                  src="/Footer%20onlinedreamtech.png"
+                  alt="OnlineDreamTech Logo"
+                  className="h-10 w-auto shrink-0 sm:h-12"
                 />
                 <div className="leading-none">
-                  <div className="text-lg font-semibold text-white">{BRAND.name}</div>
+                  <div className="text-base font-semibold text-white sm:text-lg">{BRAND.name}</div>
                 </div>
               </div>
               <p className="max-w-full text-slate-300 text-sm leading-relaxed">
@@ -28,7 +28,7 @@ export function Footer() {
             
             <div>
               <h3 className="text-white font-display text-lg mb-4">Follow Us</h3>
-              <div className="flex gap-4">
+              <div className="flex gap-2 sm:gap-4">
                 <SocialLink href={SOCIAL.instagram} label="Instagram"><InstagramIcon /></SocialLink>
                 <SocialLink href={SOCIAL.facebook} label="Facebook"><FacebookIcon /></SocialLink>
                 <SocialLink href={SOCIAL.youtube} label="YouTube"><YouTubeIcon /></SocialLink>
@@ -37,7 +37,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-display text-lg mb-4">Quick Links</h3>
+            <h3 className="mb-3 font-display text-base text-white sm:mb-4 sm:text-lg">Quick Links</h3>
             <ul className="space-y-2">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
@@ -50,7 +50,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-display text-lg mb-4">Services</h3>
+            <h3 className="mb-3 font-display text-base text-white sm:mb-4 sm:text-lg">Services</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/services#website-development" className="text-slate-300 hover:text-white text-sm transition-colors inline-block py-1">
@@ -85,8 +85,8 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="text-white font-display text-lg mb-4">Contact</h3>
+          <div className="col-span-2 sm:col-span-1">
+            <h3 className="mb-3 font-display text-base text-white sm:mb-4 sm:text-lg">Contact</h3>
             <ul className="space-y-2 text-sm text-slate-300">
               <li>
                 <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
@@ -100,9 +100,9 @@ export function Footer() {
               </li>
             </ul>
 
-            <div className="mt-8">
-              <h4 className="text-lg font-bold text-white">Subscribe to our newsletter</h4>
-              <form className="mt-4 flex flex-col gap-3 rounded-full border border-indigo-400/40 bg-indigo-950/60 p-1.5 shadow-[0_12px_30px_rgba(30,20,80,0.28)] sm:flex-row sm:items-center">
+            <div className="mt-6 sm:mt-8">
+              <h4 className="text-base font-bold text-white sm:text-lg">Subscribe to our newsletter</h4>
+              <form className="mt-3 flex min-w-0 items-center gap-2 rounded-full border border-indigo-400/40 bg-indigo-950/60 p-1.5 shadow-[0_12px_30px_rgba(30,20,80,0.28)] sm:mt-4">
                 <label htmlFor="footer-newsletter-email" className="sr-only">
                   Your email address
                 </label>
@@ -111,11 +111,11 @@ export function Footer() {
                   type="email"
                   placeholder="Your email address"
                   required
-                  className="min-w-0 flex-1 rounded-full bg-transparent px-5 py-3 text-sm text-white outline-none placeholder:text-slate-400 focus:ring-2 focus:ring-cyan-300/40"
+                  className="min-w-0 flex-1 rounded-full bg-transparent px-3 py-2.5 text-sm text-white outline-none placeholder:text-slate-400 focus:ring-2 focus:ring-cyan-300/40 sm:px-5"
                 />
                 <button
                   type="submit"
-                  className="rounded-full bg-cyan-400 px-6 py-3 text-sm font-bold text-slate-950 transition-colors hover:bg-cyan-300 focus:outline-none focus:ring-2 focus:ring-cyan-200 focus:ring-offset-2 focus:ring-offset-slate-950"
+                  className="shrink-0 rounded-full bg-cyan-400 px-4 py-2.5 text-sm font-bold text-slate-950 transition-colors hover:bg-cyan-300 focus:outline-none focus:ring-2 focus:ring-cyan-200 focus:ring-offset-2 focus:ring-offset-slate-950 sm:px-6"
                 >
                   Join
                 </button>
@@ -124,7 +124,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="mt-8 flex flex-col items-start gap-2 border-t border-slate-800 pt-6 sm:mt-12 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:pt-8">
           <p className="text-slate-400 text-sm">© {CURRENT_YEAR} {BRAND.legalName}. All rights reserved.</p>
           <p className="text-slate-500 text-xs">{BRAND.domain}</p>
         </div>
@@ -148,7 +148,7 @@ function SocialLink({
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className="inline-flex items-center justify-center text-white hover:text-white transition-colors cursor-pointer"
+      className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-white transition-colors hover:bg-white/10 hover:text-white"
     >
       {children}
     </a>
