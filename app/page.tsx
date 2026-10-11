@@ -131,8 +131,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">Offering you</p>
             <h2 className="mt-4 font-display text-4xl text-slate-900 sm:text-5xl">
-              <span className="block">Cutting-edge</span>
-              <span className="block italic">Technologies</span>
+              Cutting-edge <span className="italic">Technologies</span>
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-600">
               We build with modern tools and trusted frameworks that keep your digital experiences fast, scalable, and future-ready.
@@ -304,13 +303,18 @@ export default function HomePage() {
       </section>
 
       <section className="py-14 sm:py-16 lg:py-20 bg-[#f5f7fb]">
-        <div className="max-w-3xl mx-auto px-4 text-center">
+        <div className="mx-auto max-w-5xl rounded-3xl border border-[#D4AF37] bg-white/70 px-5 py-8 text-center shadow-[0_16px_40px_rgba(15,23,42,0.05)] sm:px-8 sm:py-10">
           <p className="text-xs font-semibold uppercase tracking-[0.24em] text-primary">Let’s build momentum</p>
           <h2 className="mt-4 font-display text-4xl text-slate-900 sm:text-5xl">Ready to grow with {BRAND.name}?</h2>
           <p className="mt-5 text-base leading-8 text-slate-600">A clear plan, smarter decisions, and support that helps you move with confidence.</p>
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
-            <Button href="/about" size="lg">Start now</Button>
-            <Button href="/about" variant="secondary" size="lg">Talk to us</Button>
+            <Button href="/contact" size="lg">Connect</Button>
+            <a
+              href="tel:9936860125"
+              className="inline-flex min-h-12 items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-8 py-3.5 text-base font-medium text-slate-900 transition-all duration-200 hover:border-slate-300 hover:bg-slate-50"
+            >
+              Talk to us
+            </a>
           </div>
         </div>
       </section>

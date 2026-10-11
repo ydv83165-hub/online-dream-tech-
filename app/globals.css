@@ -152,7 +152,7 @@ body {
 }
 
 .site-main {
-  padding-top: calc(98px + env(safe-area-inset-top, 0px));
+  padding-top: calc(90px + env(safe-area-inset-top, 0px));
 }
 
 .header-connect {
@@ -161,7 +161,7 @@ body {
 
 @media (min-width: 640px) {
   .site-main {
-    padding-top: calc(106px + env(safe-area-inset-top, 0px));
+    padding-top: calc(98px + env(safe-area-inset-top, 0px));
   }
 }
 
@@ -173,7 +173,7 @@ body {
 
 @media (min-width: 1280px) {
   .site-main {
-    padding-top: calc(146px + env(safe-area-inset-top, 0px));
+    padding-top: calc(122px + env(safe-area-inset-top, 0px));
   }
 }
 

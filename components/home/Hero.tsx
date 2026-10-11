@@ -28,7 +28,7 @@ export function Hero() {
 
   return (
     <section
-      className="hero-shell relative min-h-[680px] overflow-hidden bg-[#0a1532] pt-18 pb-14 sm:min-h-[720px] sm:pt-20 sm:pb-20 lg:h-screen lg:min-h-[700px] lg:pt-24 lg:pb-24"
+      className="hero-shell relative min-h-[560px] overflow-hidden bg-[#0a1532] pt-14 pb-10 sm:min-h-[600px] sm:pt-16 sm:pb-14 lg:min-h-[620px] lg:py-20"
     >
       <div className="absolute inset-0" aria-hidden="true">
         {HERO_BACKGROUNDS.map((background, index) => {
