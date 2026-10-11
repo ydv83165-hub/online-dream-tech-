@@ -56,7 +56,7 @@ export default function AboutPage() {
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <Button href="/contact" variant="secondary" size="lg">Let&apos;s connect</Button>
-                <Button href="/services" variant="secondary" size="lg">See our work</Button>
+                <Button href="/projects" variant="secondary" size="lg">See our work</Button>
               </div>
 
               <div className="mt-8 grid grid-cols-3 gap-4 text-sm text-slate-200">
