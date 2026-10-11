@@ -171,12 +171,12 @@ export function ProjectsGallery() {
 
   return (
     <div className="min-h-screen bg-[#f5f3ff]">
-      <div className="mx-auto max-w-7xl px-4 pb-16 pt-8 sm:px-6 sm:pt-12 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 pb-12 pt-6 sm:px-6 sm:pb-16 sm:pt-12 lg:px-8">
         <header className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-bold uppercase tracking-[0.24em] text-indigo-600">
             Selected work
           </p>
-          <h1 className="mt-3 font-display text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
+          <h1 className="mt-3 font-display text-3xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
             Projects we&apos;re proud of
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base">
@@ -185,7 +185,7 @@ export function ProjectsGallery() {
         </header>
 
         <div
-          className="mt-8 flex flex-wrap justify-center gap-2.5 sm:mt-10 sm:gap-3"
+          className="mt-6 flex flex-wrap justify-center gap-2 sm:mt-10 sm:gap-3"
           aria-label="Filter projects by category"
         >
           {CATEGORIES.map((category) => {
@@ -197,7 +197,7 @@ export function ProjectsGallery() {
                 type="button"
                 aria-pressed={isActive}
                 onClick={() => setActiveCategory(category)}
-                className={`rounded-full border px-4 py-2.5 text-sm font-semibold transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:px-5 ${
+                className={`rounded-full border px-3 py-2.5 text-sm font-semibold transition-all duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:px-5 ${
                   isActive
                     ? "border-indigo-600 bg-indigo-600 text-white shadow-[0_8px_18px_rgba(79,70,229,0.2)]"
                     : "border-slate-200 bg-white text-slate-700 hover:border-indigo-300 hover:bg-indigo-50"
@@ -209,7 +209,7 @@ export function ProjectsGallery() {
           })}
         </div>
 
-        <div className="mb-5 mt-8 flex items-center justify-between sm:mt-10">
+        <div className="mb-5 mt-7 flex items-center justify-between sm:mt-10">
           <h2 className="font-display text-2xl font-semibold text-slate-900 sm:text-3xl">
             {activeCategory === "All" ? "All projects" : `${activeCategory} projects`}
           </h2>
@@ -247,7 +247,7 @@ export function ProjectsGallery() {
                 )}
               </div>
 
-              <div className="flex flex-1 flex-col p-5 sm:p-6">
+              <div className="flex flex-1 flex-col p-4 sm:p-6">
                 <span className="w-fit rounded-full border border-indigo-100 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700">
                   {project.category}
                 </span>
